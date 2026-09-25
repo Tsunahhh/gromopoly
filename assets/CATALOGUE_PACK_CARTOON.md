@@ -52,7 +52,29 @@ Pour une décoration placée à côté d'un texte équivalent, utiliser `alt=""`
 
 Les bâtiments sont conseillés à 48–64 px sur le plateau et 96–128 px dans les fiches. Les objets conviennent aux boutons à 32–48 px. Les événements et récompenses sont prévus pour 64–128 px. Les fichiers 256 px permettent un affichage net sur écran haute densité.
 
-L'hôtel, le bouclier et la médaille sont des illustrations disponibles pour une future utilisation : leur présence dans ce pack n'implémente aucune mécanique supplémentaire. Les images ne sont pas automatiquement substituées aux illustrations actuelles du jeu.
+## Utilisation actuelle dans le jeu
+
+Les alias sont définis dans `src/assets.js` (objet `pack`, préfixe `pack:` pour `asset()`). Chaque image est servie avec sa version 256 px en `srcset` 2x.
+
+| Image | Où elle apparaît |
+|---|---|
+| `batiment-maison-potager` | Bouton « Construire », niveaux 1–3 du tableau des loyers, réserve de la banque |
+| `batiment-immeuble-balcons` | Niveau Immeuble (loyers, cases, réserve de la banque) |
+| `batiment-gare-train` | Fiche des navettes (Transport) |
+| `batiment-banque-coffre` | Pastille « réserve de la banque » au centre du plateau |
+| `batiment-prison-evasion` | Joueur retenu au Commissariat (bandeau d'action, statut), fiche du Commissariat, carte « Commissariat » |
+| `objet-marteau-encheres` | Bandeau des enchères |
+| `objet-cles-propriete` | Proposition d'achat, « À toi le premier terrain », animation d'achat sur la case, carte « Rejoindre » de l'accueil |
+| `objet-portefeuille-billets` | Boutons « Régler la dette » et « Sortir · 50 ¤ », capital de départ dans le salon |
+| `objet-bouclier-loyer` | Carte Libération (bouton, statut du joueur, carte piochée) |
+| `evenement-pluie-pieces` | Cartes de gain, animation de gain sur la carte du joueur |
+| `evenement-reparations-maison` | Cartes de travaux |
+| `evenement-fete-quartier` | Cartes entre voisins, carte « Créer la partie » de l'accueil |
+| `evenement-faillite-tirelire` | Dette, faillite, cartes de dépense |
+| `recompense-couronne-vainqueur` | Joueur en tête pendant la partie, n° 1 des classements, écran de victoire, objectif du salon |
+| `recompense-medaille-collection` | Encadré « Un quartier, ça se complète », quartiers complets |
+
+L'hôtel (`batiment-hotel-piscine`) reste disponible pour une future construction de prestige : le jeu n'a pas de niveau au-delà de l'immeuble.
 
 ## Animation conseillée
 

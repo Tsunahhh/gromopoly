@@ -166,3 +166,57 @@
 @keyframes sheetUp{from{transform:translateY(60px);opacity:0}}
 
 .reduce-motion .tile.current{animation:none}
+
+/* ---------- Pack cartoon : illustrations par rôle ---------- */
+/* Joueurs : couronne du joueur en tête, statuts illustrés. */
+.player-avatar{position:relative}
+.leader-crown{position:absolute;top:-13px;left:-9px;width:26px!important;height:26px!important;transform:rotate(-18deg);filter:drop-shadow(0 2px 0 #342d4744)}
+.player-status{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.player-status i{display:inline-flex;align-items:center;gap:3px;font:800 10px/1 'Nunito',sans-serif;font-style:normal;color:#5b4a66;background:#fff4dc;border:1px solid #dccbb6;border-radius:100px;padding:2px 7px 2px 3px}
+.player-status .game-asset{width:17px;height:17px}
+/* Quartiers complets. */
+.group-progress>div.done{font-weight:900;color:var(--ink)}
+.group-progress>div.done b{color:#9b6a22}
+.group-medal{width:18px!important;height:18px!important;margin-left:auto}
+.group-progress>div.done .group-medal+b{margin-left:0}
+/* Réserve de la banque. */
+.bank-pill .bank-icon{width:24px!important;height:24px!important;margin-right:2px}
+.bank-pill small{font-weight:800;color:#8a748c;margin-left:2px}
+/* Fiches de terrain. */
+.deed-stripe{position:relative}
+.deed-art{position:absolute;right:58px;bottom:-22px;width:74px!important;height:74px!important;filter:drop-shadow(2px 3px 0 #342d4733)}
+.level-icons{display:inline-flex;min-width:58px;gap:1px;vertical-align:middle}
+.level-icons .game-asset{width:18px;height:18px}
+.rent-table .current-level .level-icons .game-asset{transform:scale(1.12)}
+/* Accueil, salon, résultats. */
+.join-card .card-icon{background:#b8e5d3;transform:rotate(7deg)}
+.card-icon .game-asset{width:40px;height:40px}
+.rule-line>span{display:grid;place-items:center;width:34px!important;height:34px}
+.rule-line>span .game-asset{width:26px;height:26px}
+.rank-crown{width:26px;height:26px}
+.result-crown{width:44px;height:44px}
+.result-hero-asset{width:120px!important;height:120px!important}
+/* Achat : les clés sautent sur la case achetée. */
+.keys-pop{position:absolute;z-index:25;pointer-events:none;transform:translate(-50%,-50%);animation:keysPop 1.4s ease-out forwards}
+.keys-pop .game-asset{width:46px;height:46px;filter:drop-shadow(2px 3px 0 #342d4755)}
+@keyframes keysPop{0%{transform:translate(-50%,-30%) scale(.3);opacity:0}25%{transform:translate(-50%,-70%) scale(1.15);opacity:1}45%{transform:translate(-50%,-65%) scale(1)}80%{opacity:1}100%{transform:translate(-50%,-110%) scale(.9);opacity:0}}
+/* Gains et pertes sur la carte du joueur. */
+.cash-pop{position:absolute;right:6px;top:-12px;z-index:5;display:flex;align-items:center;gap:2px;pointer-events:none;animation:cashPop 1.7s ease-out forwards}
+.cash-pop b{font:900 13px 'Nunito',sans-serif;background:#fffdf6;border:2px solid var(--ink);border-radius:100px;padding:1px 8px}
+.cash-pop.gain b{background:#d8f1e2;color:#236b45}
+.cash-pop.loss b{background:#ffe2db;color:#b53232}
+.cash-pop .game-asset{width:36px;height:36px}
+@keyframes cashPop{0%{opacity:0;transform:translateY(8px)}15%{opacity:1;transform:translateY(0)}80%{opacity:1}100%{opacity:0;transform:translateY(-14px)}}
+/* Carte piochée. */
+.card-reveal{position:fixed;left:50%;top:42%;z-index:90;width:min(280px,calc(100vw - 40px));transform:translate(-50%,-50%) rotate(-2deg);display:grid;justify-items:center;gap:6px;text-align:center;cursor:pointer;background:#fffdf6;border:3px solid var(--ink);border-radius:22px;padding:18px 18px 14px;box-shadow:6px 7px 0 var(--ink),0 20px 50px #342d4755;animation:cardIn .45s cubic-bezier(.2,1.4,.4,1)}
+.card-reveal.city{background:linear-gradient(#e4dbfa,#fffdf6 55%)}
+.card-reveal.event{background:linear-gradient(#ffe5c0,#fffdf6 55%)}
+.card-reveal small{font:900 10px 'Nunito',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#6d557e}
+.card-reveal .card-art{width:112px;height:112px;filter:drop-shadow(3px 4px 0 #342d4722)}
+.card-reveal b{font:600 22px/1.1 var(--serif);color:var(--ink)}
+.card-reveal span{font:900 15px 'Nunito',sans-serif;border-radius:100px;padding:4px 12px;background:#f1e9ff;color:#4b3758}
+.card-reveal.good span{background:#d8f1e2;color:#236b45}
+.card-reveal.bad span{background:#ffe2db;color:#b53232}
+.card-reveal em{font:700 10px 'Nunito',sans-serif;font-style:normal;color:#9a889d}
+@keyframes cardIn{from{opacity:0;transform:translate(-50%,-30%) rotate(-12deg) scale(.6)}}
+@media(max-width:760px){.card-reveal{top:38%}.deed-art{right:52px;width:60px!important;height:60px!important}.player-status i{font-size:9px}.mobile-game .player-status{margin-top:3px}}
