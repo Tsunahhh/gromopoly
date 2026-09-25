@@ -1,0 +1,46 @@
+# Dépendances
+node_modules/
+
+# Build Vite
+dist/
+dist-ssr/
+*.local
+
+# Variables d'environnement (ne jamais versionner DATABASE_URL)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs et caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.eslintcache
+.cache/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Éditeurs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Outils locaux
+.claude/settings.local.json
+graphify-out/

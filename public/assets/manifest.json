@@ -1,0 +1,254 @@
+[
+  {
+    "name": "frog",
+    "width": 80,
+    "height": 80,
+    "file": "/assets/frog.webp",
+    "sourceCell": 0
+  },
+  {
+    "name": "fox",
+    "width": 80,
+    "height": 80,
+    "file": "/assets/fox.webp",
+    "sourceCell": 1
+  },
+  {
+    "name": "panda",
+    "width": 80,
+    "height": 80,
+    "file": "/assets/panda.webp",
+    "sourceCell": 2
+  },
+  {
+    "name": "octopus",
+    "width": 80,
+    "height": 80,
+    "file": "/assets/octopus.webp",
+    "sourceCell": 3
+  },
+  {
+    "name": "chick",
+    "width": 80,
+    "height": 80,
+    "file": "/assets/chick.webp",
+    "sourceCell": 4
+  },
+  {
+    "name": "koala",
+    "width": 80,
+    "height": 80,
+    "file": "/assets/koala.webp",
+    "sourceCell": 5
+  },
+  {
+    "name": "copper-cottage",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/copper-cottage.webp",
+    "sourceCell": 6
+  },
+  {
+    "name": "blue-townhouse",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/blue-townhouse.webp",
+    "sourceCell": 7
+  },
+  {
+    "name": "lavender-bookshop",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/lavender-bookshop.webp",
+    "sourceCell": 8
+  },
+  {
+    "name": "coral-bakery",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/coral-bakery.webp",
+    "sourceCell": 9
+  },
+  {
+    "name": "ruby-theater",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/ruby-theater.webp",
+    "sourceCell": 10
+  },
+  {
+    "name": "gold-apartments",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/gold-apartments.webp",
+    "sourceCell": 11
+  },
+  {
+    "name": "emerald-greenhouse",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/emerald-greenhouse.webp",
+    "sourceCell": 12
+  },
+  {
+    "name": "sapphire-tower",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/sapphire-tower.webp",
+    "sourceCell": 13
+  },
+  {
+    "name": "tram",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/tram.webp",
+    "sourceCell": 14
+  },
+  {
+    "name": "power",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/power.webp",
+    "sourceCell": 15
+  },
+  {
+    "name": "water",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/water.webp",
+    "sourceCell": 16
+  },
+  {
+    "name": "rocket",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/rocket.webp",
+    "sourceCell": 17
+  },
+  {
+    "name": "police",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/police.webp",
+    "sourceCell": 18
+  },
+  {
+    "name": "park",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/park.webp",
+    "sourceCell": 19
+  },
+  {
+    "name": "siren",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/siren.webp",
+    "sourceCell": 20
+  },
+  {
+    "name": "tax",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/tax.webp",
+    "sourceCell": 21
+  },
+  {
+    "name": "city-card",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/city-card.webp",
+    "sourceCell": 22
+  },
+  {
+    "name": "event-card",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/event-card.webp",
+    "sourceCell": 23
+  },
+  {
+    "name": "coins",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/coins.webp",
+    "sourceCell": 24
+  },
+  {
+    "name": "house",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/house.webp",
+    "sourceCell": 25
+  },
+  {
+    "name": "apartment",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/apartment.webp",
+    "sourceCell": 26
+  },
+  {
+    "name": "dice-1",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/dice-1.webp",
+    "sourceCell": 27
+  },
+  {
+    "name": "dice-2",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/dice-2.webp",
+    "sourceCell": 28
+  },
+  {
+    "name": "dice-3",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/dice-3.webp",
+    "sourceCell": 29
+  },
+  {
+    "name": "dice-4",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/dice-4.webp",
+    "sourceCell": 30
+  },
+  {
+    "name": "dice-5",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/dice-5.webp",
+    "sourceCell": 31
+  },
+  {
+    "name": "dice-6",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/dice-6.webp",
+    "sourceCell": 32
+  },
+  {
+    "name": "handshake",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/handshake.webp",
+    "sourceCell": 33
+  },
+  {
+    "name": "trophy",
+    "width": 144,
+    "height": 144,
+    "file": "/assets/trophy.webp",
+    "sourceCell": 34
+  },
+  {
+    "name": "mortgage",
+    "width": 112,
+    "height": 112,
+    "file": "/assets/mortgage.webp",
+    "sourceCell": 35
+  }
+]
