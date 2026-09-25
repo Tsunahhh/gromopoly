@@ -19,6 +19,18 @@
 @keyframes currentPulse{50%{box-shadow:0 0 0 3px #ffbd59,0 0 0 8px #ffbd5955}}
 .dice-area.idle .die{opacity:.45}
 
+/* Dés : roulé pendant le lancer, atterrissage avec rebond, total affiché brièvement. */
+.dice-area{position:relative}
+.die.tumbling{opacity:1;animation:diceTumble .36s linear infinite}
+.die.tumbling:nth-child(2){animation-duration:.3s;animation-direction:reverse}
+.die.landed{animation:diceLand .5s cubic-bezier(.25,1.6,.45,1)}
+@keyframes diceTumble{0%{transform:translateY(0) rotate(0)}25%{transform:translateY(-16px) rotate(90deg) scale(1.06)}50%{transform:translateY(-2px) rotate(180deg)}75%{transform:translateY(-10px) rotate(270deg) scale(1.04)}100%{transform:translateY(0) rotate(360deg)}}
+@keyframes diceLand{from{transform:translateY(-18px) scale(1.25) rotate(-25deg)}}
+.dice-total{position:absolute;left:100%;top:50%;margin-left:10px;transform:translateY(-50%);white-space:nowrap;pointer-events:none;z-index:2;background:#fffdf6;border:2px solid var(--ink);border-radius:100px;padding:3px 11px;box-shadow:0 3px 0 var(--ink);font:900 14px 'Nunito',sans-serif;color:var(--ink);animation:diceTotal 2.6s ease forwards}
+.dice-total.double{background:#ffbd59}
+@keyframes diceTotal{0%{opacity:0;transform:translateY(-50%) scale(.5)}12%{opacity:1;transform:translateY(-50%) scale(1.12)}22%{transform:translateY(-50%) scale(1)}80%{opacity:1}100%{opacity:0;transform:translateY(-50%) scale(1)}}
+@media(max-width:760px){.dice-total{left:50%;top:auto;bottom:-6px;margin:0;transform:translate(-50%,100%);font-size:12px;padding:2px 9px}@keyframes diceTotal{0%{opacity:0}12%,80%{opacity:1}100%{opacity:0}}}
+
 /* Ordinateur : le plateau tient dans l'écran et les actions sont dans son centre. */
 @media(min-width:1051px){
   .game-top{height:70px}
@@ -152,5 +164,5 @@
   .deal-title{padding:10px!important;min-height:44px}
 }
 @keyframes sheetUp{from{transform:translateY(60px);opacity:0}}
-@media(prefers-reduced-motion:reduce){.tile.current{animation:none}}
+
 .reduce-motion .tile.current{animation:none}

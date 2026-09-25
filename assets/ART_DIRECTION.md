@@ -1,5 +1,9 @@
 # Direction artistique et assets IA
 
+## Pack complémentaire
+
+16 illustrations supplémentaires sont documentées dans [CATALOGUE_PACK_CARTOON.md](CATALOGUE_PACK_CARTOON.md), avec noms explicites, usages, aperçus et formats. La galerie se trouve à `/assets/pack-cartoon/index.html`. Les prompts sont conservés dans [PROMPTS_PACK_CARTOON.md](PROMPTS_PACK_CARTOON.md).
+
 Interface cartoon à contours prune, boutons en relief, couleurs crème, corail, menthe et lavande. Les textes restent du HTML lisible et les actions restent de vrais boutons utilisables au clavier.
 
 ## Livrables
@@ -51,4 +55,3 @@ Use case: stylized-concept. Asset type: seamless repeating background texture fo
 ### Planche de 36 éléments
 
 Use case: stylized-concept. Asset type: ONE game sprite atlas, a precisely aligned 6 columns by 6 rows regular grid containing 36 separate small cartoon icons for a playful property board game. Target atlas size 1024x1024, square. Every cell equal size, icon centered exactly within its cell, at least 20% inner margin on each cell so icons never touch or cross cells. Transparent background, no grid lines, no labels, no typography, no words or watermark. All icons in exactly the same polished cartoon sticker style: thick dark plum outline, simple rounded bold shapes, warm gouache texture, cream highlights, slight flat shadow; designed to remain readable at 24–48 pixels. Flat frontal or slightly isometric 2D forms. The exact row-major icon sequence MUST be: Row 1: smiling green frog head, smiling orange fox head, smiling panda head, smiling lilac octopus, cheerful yellow chick, smiling gray koala head. Row 2: copper tiny cottage, blue small townhouse, lavender bookstore building, coral bakery building, ruby theater building, golden sunny apartment building. Row 3: emerald greenhouse building, sapphire tall tower building, cute mint tram, yellow electric power station with bolt, blue water utility with drop, small coral rocket pointing upward. Row 4: funny blue police station building, palm tree park bench, red police siren with arrow, tax receipt with a coin, pink envelope card with a heart, purple surprise card with a star. Row 5: stack of gold coins, green construction house, coral apartment block, cream six-sided die FRONT FACE with exactly ONE pip, cream die FRONT FACE with exactly TWO pips, cream die FRONT FACE with exactly THREE pips. Row 6: cream die FRONT FACE with exactly FOUR pips, cream die FRONT FACE with exactly FIVE pips, cream die FRONT FACE with exactly SIX pips, friendly handshake icon, gold trophy, small house with a padlock. Strictly one icon in each cell, all 36 cells used, consistent spacing, no scenery, no extra decorative objects outside icons. Genuine transparent background.
-

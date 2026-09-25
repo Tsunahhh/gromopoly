@@ -1,0 +1,370 @@
+[
+  {
+    "id": "batiment-maison-potager",
+    "title": "Maison au potager",
+    "category": "batiments",
+    "subject": "Petite maison crème au toit corail, potager et arrosoir menthe",
+    "usage": "Terrain résidentiel ou première construction",
+    "size": 128,
+    "display": 48,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/batiment-maison-potager.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 9626
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/batiment-maison-potager-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 25082
+      }
+    }
+  },
+  {
+    "id": "batiment-immeuble-balcons",
+    "title": "Immeuble aux balcons fleuris",
+    "category": "batiments",
+    "subject": "Immeuble lavande de trois étages avec balcons fleuris et store menthe",
+    "usage": "Construction améliorée et fiche propriété",
+    "size": 128,
+    "display": 48,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/batiment-immeuble-balcons.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7534
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/batiment-immeuble-balcons-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 20932
+      }
+    }
+  },
+  {
+    "id": "batiment-hotel-piscine",
+    "title": "Hôtel avec piscine",
+    "category": "batiments",
+    "subject": "Petit hôtel chic corail et crème, piscine turquoise et palmier miniature",
+    "usage": "Construction de prestige",
+    "size": 128,
+    "display": 48,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/batiment-hotel-piscine.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 9406
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/batiment-hotel-piscine-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 25622
+      }
+    }
+  },
+  {
+    "id": "batiment-gare-train",
+    "title": "Gare et petit train",
+    "category": "batiments",
+    "subject": "Gare arrondie jaune beurre avec horloge sans chiffres et petit train menthe",
+    "usage": "Case transport",
+    "size": 128,
+    "display": 48,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/batiment-gare-train.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7900
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/batiment-gare-train-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21238
+      }
+    }
+  },
+  {
+    "id": "batiment-banque-coffre",
+    "title": "Banque au coffre doré",
+    "category": "batiments",
+    "subject": "Banque miniature lavande avec grande porte de coffre ronde et pièce dorée",
+    "usage": "Banque et réserve d’argent",
+    "size": 128,
+    "display": 48,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/batiment-banque-coffre.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8304
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/batiment-banque-coffre-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21284
+      }
+    }
+  },
+  {
+    "id": "batiment-prison-evasion",
+    "title": "Prison à la lime cachée",
+    "category": "batiments",
+    "subject": "Petite prison bleue cartoon avec fenêtre à barreaux, une lime et drap noué comique",
+    "usage": "Case prison",
+    "size": 128,
+    "display": 48,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/batiment-prison-evasion.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8434
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/batiment-prison-evasion-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21630
+      }
+    }
+  },
+  {
+    "id": "objet-marteau-encheres",
+    "title": "Marteau des enchères",
+    "category": "objets",
+    "subject": "Marteau de commissaire-priseur corail et socle crème avec éclat étoilé jaune",
+    "usage": "Bouton et fenêtre enchères",
+    "size": 96,
+    "display": 32,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/objet-marteau-encheres.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4980
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/objet-marteau-encheres-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17928
+      }
+    }
+  },
+  {
+    "id": "objet-cles-propriete",
+    "title": "Clés de propriété",
+    "category": "objets",
+    "subject": "Deux grosses clés dorées avec porte-clés en forme de petite maison menthe",
+    "usage": "Achat réussi ou transfert de propriété",
+    "size": 96,
+    "display": 32,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/objet-cles-propriete.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 5722
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/objet-cles-propriete-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 20104
+      }
+    }
+  },
+  {
+    "id": "objet-portefeuille-billets",
+    "title": "Portefeuille bien rempli",
+    "category": "objets",
+    "subject": "Portefeuille prune dodu avec billets menthe sans inscriptions et deux pièces dorées",
+    "usage": "Solde et revenus",
+    "size": 96,
+    "display": 32,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/objet-portefeuille-billets.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4638
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/objet-portefeuille-billets-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16676
+      }
+    }
+  },
+  {
+    "id": "objet-bouclier-loyer",
+    "title": "Bouclier de protection",
+    "category": "objets",
+    "subject": "Bouclier menthe épais avec une maison crème en emblème et petit éclat doré",
+    "usage": "Illustration de protection, mécanique optionnelle",
+    "size": 96,
+    "display": 32,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/objet-bouclier-loyer.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4686
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/objet-bouclier-loyer-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15742
+      }
+    }
+  },
+  {
+    "id": "evenement-pluie-pieces",
+    "title": "Pluie de pièces",
+    "category": "evenements",
+    "subject": "Petit nuage crème souriant qui pleut des pièces dorées, composition joyeuse compacte",
+    "usage": "Prime, gain ou bonus",
+    "size": 160,
+    "display": 64,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/evenement-pluie-pieces.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 10704
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/evenement-pluie-pieces-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19010
+      }
+    }
+  },
+  {
+    "id": "evenement-reparations-maison",
+    "title": "Maison en réparations",
+    "category": "evenements",
+    "subject": "Petite maison corail avec pansement sur le toit et clé à molette menthe sur le côté",
+    "usage": "Carte frais de réparation",
+    "size": 160,
+    "display": 64,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/evenement-reparations-maison.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 12402
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/evenement-reparations-maison-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 23104
+      }
+    }
+  },
+  {
+    "id": "evenement-fete-quartier",
+    "title": "Fête de quartier",
+    "category": "evenements",
+    "subject": "Guirlande de fanions corail menthe lavande au dessus de deux maisons rondes et confettis",
+    "usage": "Carte événement positif",
+    "size": 160,
+    "display": 64,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/evenement-fete-quartier.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 16516
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/evenement-fete-quartier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 31092
+      }
+    }
+  },
+  {
+    "id": "evenement-faillite-tirelire",
+    "title": "Tirelire fauchée",
+    "category": "evenements",
+    "subject": "Tirelire rose comique avec pansement et une unique petite pièce, expression étonnée mais sympathique",
+    "usage": "Écran faillite ou manque d’argent",
+    "size": 160,
+    "display": 64,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/evenement-faillite-tirelire.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 9610
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/evenement-faillite-tirelire-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16234
+      }
+    }
+  },
+  {
+    "id": "recompense-couronne-vainqueur",
+    "title": "Couronne du vainqueur",
+    "category": "recompenses",
+    "subject": "Couronne dorée dodue avec joyaux menthe et corail et rubans lavande",
+    "usage": "Victoire et classement",
+    "size": 160,
+    "display": 64,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/recompense-couronne-vainqueur.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 12804
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/recompense-couronne-vainqueur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 24086
+      }
+    }
+  },
+  {
+    "id": "recompense-medaille-collection",
+    "title": "Médaille de collection de quartier",
+    "category": "recompenses",
+    "subject": "Médaille dorée avec trois petites maisons en relief et ruban corail menthe",
+    "usage": "Collection complète ou succès visuel",
+    "size": 128,
+    "display": 48,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/recompense-medaille-collection.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7750
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/recompense-medaille-collection-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19692
+      }
+    }
+  }
+]
