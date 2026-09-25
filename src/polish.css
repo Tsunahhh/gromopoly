@@ -46,8 +46,15 @@
   .turn-banner{position:sticky;top:8px;z-index:30}
 }
 
-/* Mobile : barre d'action fixée en bas, plateau plus lisible. */
+/* ---------- Mobile : interface pensée pour le téléphone ---------- */
+.center-where{display:none}
 @media(max-width:760px){
+  /* Champs à 16 px : iOS ne zoome plus au focus. */
+  input,select{font-size:16px}
+  .toast{top:calc(10px + env(safe-area-inset-top));bottom:auto;left:12px;right:12px;text-align:center}
+  .invite-link>span{font-size:11px}
+
+  /* Barre d'action flottante. */
   .game-page{padding-bottom:calc(170px + env(safe-area-inset-bottom))}
   .turn-banner{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:40;margin:0;padding:12px 14px;gap:10px;max-height:55dvh;overflow:auto;box-shadow:0 4px 0 #d5c4df,0 12px 30px #342d4740}
   .turn-banner.your-turn{box-shadow:0 4px 0 #d9bb77,0 12px 30px #342d4740}
@@ -55,11 +62,95 @@
   .turn-instruction h2{font-size:17px}
   .turn-instruction p{font-size:12px}
   .turn-banner:not(.your-turn) .turn-instruction p,.turn-banner .waiting-pill{display:none}
-  .turn-banner>.btn{min-height:44px}
-  .toast{top:12px;bottom:auto;left:12px;right:12px;text-align:center}
-  .board-wrap:not(.zoomed) .tile-price{display:none}
-  .board-wrap:not(.zoomed) .tile-name{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .invite-link>span{font-size:11px}
+  .turn-banner>.btn{min-height:48px;flex:1 1 auto;width:auto;min-width:0}
+  .turn-banner:has(>#roll) .turn-instruction p,.turn-banner:has(>#end) .turn-instruction p{display:none}
+  .turn-banner>.turn-instruction{flex:1 1 100%}
+  .turn-banner>.btn.trade-mini{flex:0 0 76px;flex-direction:column;gap:0;padding:4px 6px;font-size:11px;line-height:1.1}
+  .turn-banner>.btn.trade-mini .game-asset{width:24px;height:24px}
+  .turn-banner>.btn{white-space:nowrap}
+  .dice-area.idle .die{opacity:.7}
+  .action-buttons>.btn{min-height:46px}
+
+  /* En-tête compact et collant. */
+  .mobile-game{padding:0 12px calc(215px + env(safe-area-inset-bottom))}
+  .mobile-game .game-top{position:sticky;top:0;z-index:35;height:auto;min-height:58px;margin:0 -12px;padding:calc(6px + env(safe-area-inset-top)) 12px 6px;gap:8px;flex-wrap:nowrap;background:#fff4dfeb;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:2px solid #e6d6bf}
+  .mobile-game .game-top .wordmark{font-size:0;gap:0;flex:none}
+  .mobile-game .logo-die{display:inline-block;margin:0}
+  .mobile-game .logo-die .game-asset{width:36px;height:36px}
+  .mobile-game .room-pill{font-size:0;padding:5px 5px 5px 12px;gap:6px}
+  .mobile-game .room-pill b{font-size:14px;letter-spacing:.06em}
+  .mobile-game .room-pill button{font-size:11px;padding:7px 10px}
+  .mobile-game .game-clock{font-size:11px;gap:6px}
+  .mobile-game .game-clock #turn-countdown{font-size:15px;min-width:58px;padding:6px 8px}
+  .mobile-game #exit-game{display:none}
+
+  /* Joueurs : un bandeau horizontal qui défile. */
+  .mobile-game .game-layout{gap:10px;padding-top:10px}
+  .mobile-game .players-rail{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:8px;margin:0 -12px;padding:2px 12px 8px;scroll-snap-type:x proximity;scrollbar-width:none}
+  .mobile-game .players-rail::-webkit-scrollbar{display:none}
+  .mobile-game .players-rail>.section-head{display:none}
+  .mobile-game .player-card{flex:1 0 132px;max-width:190px;scroll-snap-align:start;transform:none;padding:8px 10px;border-radius:14px}
+  .mobile-game .player-card.active{transform:none}
+  .mobile-game .player-meta strong{font-size:18px}
+  .mobile-game .player-meta>small{display:block;font-size:10px}
+
+  /* Onglet Plateau : cases épurées (icône + couleur), détails au toucher. */
+  .mobile-game .board-zoom{align-self:flex-end;min-height:34px;padding:5px 12px;font-size:12px;margin:0 0 -4px;box-shadow:0 3px 0 var(--ink)}
+  .mobile-game .board-wrap:not(.zoomed) .tile-name{display:none}
+  .mobile-game .board-wrap:not(.zoomed) .tile-icon .game-asset{width:clamp(14px,5vw,24px);height:clamp(14px,5vw,24px)}
+  .mobile-game .board-wrap:not(.zoomed) .tile.street .tile-icon .game-asset{width:clamp(12px,4vw,20px);height:clamp(12px,4vw,20px)}
+  .mobile-game .board-wrap.zoomed{margin:0 -12px;padding:0 12px 10px;width:auto;scroll-behavior:smooth}
+  .mobile-game .board-center .board-ribbon,.mobile-game .board-center .center-sub{display:none}
+  .mobile-game .board-center{justify-content:center;gap:6px}
+  .mobile-game .center-word{font-size:clamp(28px,9vw,48px);margin:0}
+  .mobile-game .center-where{display:block;margin:0;max-width:90%;text-align:center;font-size:12px;line-height:1.3;color:#5b4a66;background:#fff9e8f0;border:2px solid var(--ink);border-radius:12px;padding:6px 10px}
+  .mobile-game .center-where b{color:var(--ink)}
+  .mobile-game .board-hint{font-size:10px}
+
+  /* Onglets Terrains / Journal / Options. */
+  .mobile-game .activity-rail{display:grid;grid-template-columns:1fr;gap:12px}
+  .mobile-game .activity-rail>*{display:none}
+  .mobile-game:not(.tab-board) .board-wrap,.mobile-game:not(.tab-board) .board-zoom{display:none}
+  .mobile-game.tab-board .activity-rail{display:none}
+  .mobile-game.tab-props .property-panel,.mobile-game.tab-props .goal-card,.mobile-game.tab-log .journal-panel,.mobile-game.tab-more .more-panel{display:block}
+  .mobile-game .property-panel,.mobile-game .journal-panel{max-height:none;overflow:visible;padding:16px}
+  .mobile-game .property-button{padding:12px 10px;min-height:52px}
+  .mobile-game .property-button b{font-size:14px}
+  .mobile-game .property-button small{font-size:12px}
+  .mobile-game .panel-help{font-size:13px}
+  .mobile-game .goal-card{margin:0}
+  .mobile-game .goal-card p{font-size:13px}
+  .mobile-game .group-progress>div{font-size:13px}
+  .mobile-game .journal-head .live{display:inline}
+  .mobile-game .log-line{padding:11px 0}
+  .mobile-game .log-line p{font-size:13px}
+  .more-panel{background:#fffdf6;border:2px solid var(--ink);border-radius:18px;padding:16px;box-shadow:3px 4px 0 #dcccba}
+  .more-room{display:flex;justify-content:space-between;align-items:center;margin:14px 0;padding:12px 14px;background:#fff0ca;border:2px dashed var(--ink);border-radius:12px}
+  .more-room small{font-weight:800;color:var(--muted)}
+  .more-room b{font:600 24px var(--serif);letter-spacing:.08em}
+  .more-panel .game-tools{display:grid;grid-template-columns:1fr;gap:10px;margin:0 0 10px}
+  .more-panel .game-tools button{min-height:48px;font-size:14px;box-shadow:0 3px 0 var(--ink)}
+
+  /* Barre d'onglets. */
+  .mobile-tabs{position:fixed;left:0;right:0;bottom:0;z-index:45;display:grid;grid-template-columns:repeat(4,1fr);gap:4px;background:#fffdf6;border-top:2px solid var(--ink);padding:6px 8px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px #342d4718}
+  .mobile-tabs button{position:relative;display:grid;justify-items:center;align-content:center;gap:1px;min-height:50px;padding:4px 2px;background:none;border:0;border-radius:14px;color:var(--muted);font:800 11px 'Nunito',sans-serif}
+  .mobile-tabs button[aria-pressed=true]{background:#ffe8a8;color:var(--ink)}
+  .mobile-tabs button[aria-pressed=true] .game-asset{transform:translateY(-1px) scale(1.08)}
+  .mobile-tabs .game-asset{width:26px;height:26px;transition:transform .15s}
+  .mobile-tabs b{position:absolute;top:1px;left:calc(50% + 6px);min-width:19px;height:19px;padding:0 5px;border-radius:10px;border:2px solid #fffdf6;background:#8b67cf;color:#fff;font:900 10px/15px 'Nunito',sans-serif;text-align:center}
+  .mobile-tabs b.unread{background:#be5b42}
+  .mobile-game .turn-banner{bottom:calc(72px + env(safe-area-inset-bottom))}
+
+  /* Fiches et échanges en panneau glissant depuis le bas. */
+  .info-dialog{margin:auto 0 0;width:100vw;max-width:100vw;border-radius:24px 24px 0 0;border-bottom:0;padding:30px 20px calc(22px + env(safe-area-inset-bottom));max-height:88dvh;animation:sheetUp .25s ease-out}
+  .info-dialog:before{content:'';position:absolute;top:9px;left:50%;width:44px;height:5px;margin-left:-22px;border-radius:3px;background:#cdbfd0}
+  .info-dialog .deed-stripe{margin:-30px -20px 20px;padding:30px 56px 18px 20px}
+  .info-dialog .property-actions .btn{min-height:50px;font-size:14px}
+  .deal-backdrop{align-items:end;padding:0}
+  .deal-dialog{width:100%;max-width:100%;border-radius:24px 24px 0 0;border-bottom:0;max-height:90dvh;padding-bottom:calc(22px + env(safe-area-inset-bottom));animation:sheetUp .25s ease-out}
+  .deal-actions .btn{flex:1}
+  .deal-title{padding:10px!important;min-height:44px}
 }
+@keyframes sheetUp{from{transform:translateY(60px);opacity:0}}
 @media(prefers-reduced-motion:reduce){.tile.current{animation:none}}
 .reduce-motion .tile.current{animation:none}
