@@ -15,8 +15,6 @@
 .game-clock #turn-countdown.urgent{color:#b53232;background:#ffe2db}
 
 /* Case du joueur actif : un halo discret pour suivre le pion. */
-.tile.current{z-index:3;box-shadow:0 0 0 3px #ffbd59,0 0 0 5px var(--ink);animation:currentPulse 1.6s ease-in-out infinite}
-@keyframes currentPulse{50%{box-shadow:0 0 0 3px #ffbd59,0 0 0 8px #ffbd5955}}
 .dice-area.idle .die{opacity:.45}
 
 /* Dés : roulé pendant le lancer, atterrissage avec rebond, total affiché brièvement. */
@@ -111,7 +109,7 @@
   .mobile-game .board-wrap:not(.zoomed) .tile-name{display:none}
   .mobile-game .board-wrap:not(.zoomed) .tile-icon .game-asset{width:clamp(14px,5vw,24px);height:clamp(14px,5vw,24px)}
   .mobile-game .board-wrap:not(.zoomed) .tile.street .tile-icon .game-asset{width:clamp(12px,4vw,20px);height:clamp(12px,4vw,20px)}
-  .mobile-game .board-wrap.zoomed{margin:0 -12px;padding:0 12px 10px;width:auto;scroll-behavior:smooth}
+  .mobile-game .board-wrap.zoomed{margin:0 -12px;padding:0 12px 10px;width:calc(100% + 24px);max-width:none;scroll-behavior:smooth}
   .mobile-game .board-center .board-ribbon,.mobile-game .board-center .center-sub{display:none}
   .mobile-game .board-center{justify-content:center;gap:6px}
   .mobile-game .center-word{font-size:clamp(28px,9vw,48px);margin:0}
@@ -165,7 +163,6 @@
 }
 @keyframes sheetUp{from{transform:translateY(60px);opacity:0}}
 
-.reduce-motion .tile.current{animation:none}
 
 /* ---------- Pack cartoon : illustrations par rôle ---------- */
 /* Joueurs : couronne du joueur en tête, statuts illustrés. */
@@ -196,10 +193,6 @@
 .rank-crown{width:26px;height:26px}
 .result-crown{width:44px;height:44px}
 .result-hero-asset{width:120px!important;height:120px!important}
-/* Achat : les clés sautent sur la case achetée. */
-.keys-pop{position:absolute;z-index:25;pointer-events:none;transform:translate(-50%,-50%);animation:keysPop 1.4s ease-out forwards}
-.keys-pop .game-asset{width:46px;height:46px;filter:drop-shadow(2px 3px 0 #342d4755)}
-@keyframes keysPop{0%{transform:translate(-50%,-30%) scale(.3);opacity:0}25%{transform:translate(-50%,-70%) scale(1.15);opacity:1}45%{transform:translate(-50%,-65%) scale(1)}80%{opacity:1}100%{transform:translate(-50%,-110%) scale(.9);opacity:0}}
 /* Gains et pertes sur la carte du joueur. */
 .cash-pop{position:absolute;right:6px;top:-12px;z-index:5;display:flex;align-items:center;gap:2px;pointer-events:none;animation:cashPop 1.7s ease-out forwards}
 .cash-pop b{font:900 13px 'Nunito',sans-serif;background:#fffdf6;border:2px solid var(--ink);border-radius:100px;padding:1px 8px}
@@ -220,3 +213,91 @@
 .card-reveal em{font:700 10px 'Nunito',sans-serif;font-style:normal;color:#9a889d}
 @keyframes cardIn{from{opacity:0;transform:translate(-50%,-30%) rotate(-12deg) scale(.6)}}
 @media(max-width:760px){.card-reveal{top:38%}.deed-art{right:52px;width:60px!important;height:60px!important}.player-status i{font-size:9px}.mobile-game .player-status{margin-top:3px}}
+
+/* ---------- Propriété des cases : couleur et portrait du propriétaire ---------- */
+.tile.occupied{box-shadow:none}
+.tile.owned{background-color:color-mix(in srgb,var(--owner) 38%,#fff9e8);border-color:var(--ink);box-shadow:inset 0 0 0 3px var(--owner)}
+.tile.owned .tile-band{border-bottom-color:var(--ink)}
+.tile.owned.mortgaged{background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--owner) 25%,#ebe7ec) 0 5px,#d6d2d8 5px 10px);filter:saturate(.75)}
+.tile-owner{position:absolute;top:-4px;right:-4px;left:auto;z-index:3;width:clamp(15px,1.9vw,26px);height:clamp(15px,1.9vw,26px);padding:0;border-radius:50%;background:var(--owner);border:2px solid var(--ink);display:grid;place-items:center;box-shadow:0 2px 0 #342d4766;line-height:1;overflow:hidden}
+.tile-owner .game-asset{width:100%!important;height:100%!important}
+/* Case du joueur actif : anneau lumineux (pseudo-élément, pour garder le cadre du propriétaire). */
+.tile.current::after{content:'';position:absolute;inset:-4px;z-index:2;pointer-events:none;border-radius:8px;border:3px solid #ffbd59;box-shadow:0 0 0 2px var(--ink),0 0 16px 5px #ffbd5999;animation:currentRing 1.4s ease-in-out infinite}
+@keyframes currentRing{50%{transform:scale(1.07);opacity:.6}}
+/* Case modifiée (achat, construction, hypothèque) : elle grossit et s'illumine à la couleur du joueur. */
+.tile.flash{z-index:6;animation:tileFlash 1.3s ease-out}
+@keyframes tileFlash{0%{transform:scale(1)}20%{transform:scale(1.4);box-shadow:inset 0 0 0 4px var(--flash),0 0 0 8px var(--flash),0 0 24px 10px var(--flash)}60%{transform:scale(1.15);box-shadow:inset 0 0 0 3px var(--flash),0 0 0 14px transparent}100%{transform:scale(1)}}
+.tile-pop{position:absolute;z-index:26;pointer-events:none;transform:translate(-50%,-50%);animation:tilePop 1.5s ease-out forwards}
+.tile-pop .game-asset{width:clamp(40px,5vw,68px);height:clamp(40px,5vw,68px);filter:drop-shadow(2px 3px 0 #342d4766)}
+@keyframes tilePop{0%{transform:translate(-50%,-20%) scale(.2);opacity:0}25%{transform:translate(-50%,-90%) scale(1.2);opacity:1}45%{transform:translate(-50%,-78%) scale(1)}80%{opacity:1}100%{transform:translate(-50%,-135%) scale(.9);opacity:0}}
+
+/* ---------- Pions ---------- */
+.pawns{bottom:-6px}
+.pawns i{width:clamp(18px,2.2vw,30px);height:clamp(18px,2.2vw,30px);border-radius:50%;border:2px solid var(--ink);background:var(--pawn);box-shadow:0 2px 0 #342d4788}
+.pawns i+i{margin-left:clamp(-10px,-.6vw,-5px)}
+.pawns i.landed{animation:pawnLand .45s cubic-bezier(.3,1.7,.5,1)}
+@keyframes pawnLand{from{transform:translateY(-12px) scale(1.35)}}
+.travel-token{--tok:clamp(26px,3.2vw,42px);position:absolute;left:0;top:0;z-index:30;width:var(--tok);height:var(--tok);margin:calc(var(--tok) / -2) 0 0 calc(var(--tok) / -2);padding:0;border-radius:50%;background:var(--pawn);border:3px solid var(--ink);box-shadow:0 6px 0 #342d4755,0 0 0 5px #fffc;display:grid;place-items:center;overflow:hidden;pointer-events:none;color:transparent;font-size:0}
+.travel-token .game-asset{width:100%;height:100%}
+
+/* ---------- Joueurs : couleur visible, argent qui bouge ---------- */
+.player-card{border-left:7px solid var(--accent)}
+.player-card.active{border-left-color:var(--accent)}
+.player-card.cash-up{animation:cardUp .9s ease}
+.player-card.cash-down{animation:cardDown .6s ease}
+@keyframes cardUp{30%{background:#d8f1e2;transform:scale(1.05)}}
+@keyframes cardDown{20%,60%{transform:translateX(-5px)}30%{background:#ffe2db}40%,80%{transform:translateX(5px)}}
+.player-card.receive,.bank-pill.receive{animation:receive .5s ease}
+@keyframes receive{40%{transform:scale(1.12)}}
+.cash-pop{top:-18px}
+.cash-pop b{font-size:16px;padding:3px 10px}
+.cash-pop .game-asset{width:44px;height:44px}
+.fx-layer{position:fixed;inset:0;z-index:95;pointer-events:none}
+.fly-coin{position:absolute;left:0;top:0;width:32px;height:32px;margin:-16px 0 0 -16px}
+.fly-coin .game-asset{width:32px;height:32px;filter:drop-shadow(1px 2px 0 #342d4766)}
+
+/* ---------- Annonces ---------- */
+.announcer{position:fixed;left:50%;top:calc(12px + env(safe-area-inset-top));transform:translateX(-50%);z-index:92;display:grid;gap:8px;width:min(540px,calc(100vw - 24px));pointer-events:none}
+.announce{pointer-events:auto;cursor:pointer;display:flex;align-items:center;gap:12px;background:#fffdf6;border:3px solid var(--ink);border-left:12px solid var(--accent,#a98bdd);border-radius:18px;padding:10px 16px 10px 12px;box-shadow:4px 5px 0 var(--ink),0 14px 30px #342d4740;animation:announceIn .45s cubic-bezier(.2,1.4,.4,1)}
+.announce .game-asset{width:48px;height:48px;flex:none}
+.announce p{margin:0;font:800 17px/1.3 'Nunito',sans-serif;color:var(--ink)}
+.announce strong{font-weight:900;white-space:nowrap}
+.announce .who{display:inline-block;background:color-mix(in srgb,var(--c) 50%,#fff);border:1.5px solid var(--ink);border-radius:8px;padding:0 6px;white-space:nowrap}
+.announce.tone-buy{--accent:#ffbd59}
+.announce.tone-pay{--accent:#e8766a}
+.announce.tone-bad{--accent:#d24b3e;background:#fff1ee}
+.announce.tone-good{--accent:#4fae7e;background:#effaf3}
+.announce.tone-neutral{--accent:#a98bdd}
+.announce.tone-turn{background:#ffe8a8}
+.announce.tone-turn p{font:600 21px/1.2 var(--serif)}
+.announce.tone-turn .game-asset{border-radius:50%;background:var(--accent);border:2px solid var(--ink)}
+.announce.leaving{animation:announceOut .35s ease forwards}
+@keyframes announceIn{from{opacity:0;transform:translateY(-26px) scale(.88)}}
+@keyframes announceOut{to{opacity:0;transform:translateY(-18px) scale(.94)}}
+@media(max-width:760px){
+  .announce{gap:10px;padding:8px 12px 8px 10px;border-left-width:9px;border-radius:15px}
+  .announce .game-asset{width:38px;height:38px}
+  .announce p{font-size:14px}
+  .announce.tone-turn p{font-size:18px}
+  .tile-owner{border-width:1.5px}
+  .tile.owned{box-shadow:inset 0 0 0 2.5px var(--owner)}
+  .player-card{border-left-width:6px}
+  .leader-crown{width:20px!important;height:20px!important;top:-9px;left:-6px}
+  .mobile-game .player-meta>small{white-space:normal;overflow:visible}
+}
+
+/* ---------- Contenu des cases : tout est dimensionné selon la taille réelle de la case ---------- */
+.board .tile{container-type:size}
+.board .tile .tile-content{gap:1.5cqh;padding:1px 3px;justify-content:center;overflow:hidden}
+.board .tile .tile-icon{display:flex;align-items:center;justify-content:center;line-height:0;font-size:0;flex:none}
+.board .tile .tile-icon .game-asset{width:min(34cqh,42cqw);height:min(34cqh,42cqw)}
+.board .tile.street .tile-icon .game-asset,.board-wrap .board .tile.street .tile-icon .game-asset{width:min(24cqh,32cqw);height:min(24cqh,32cqw)}
+.board .tile .tile-name,.board-wrap .board .tile.street .tile-name{font-size:clamp(5px,min(12cqh,14cqw),13px);line-height:1.18;padding-bottom:1px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:none}
+.board .tile .tile-price,.board .tile.street .tile-price{font-size:clamp(5px,min(11cqh,13cqw),11px);line-height:1.1;flex:none}
+/* Mobile, plateau non agrandi : noms masqués, icône et prix plus grands. */
+@media(max-width:760px){
+.mobile-game .board-wrap:not(.zoomed) .tile .tile-icon .game-asset{width:min(52cqh,62cqw);height:min(52cqh,62cqw)}
+.mobile-game .board-wrap:not(.zoomed) .tile.street .tile-icon .game-asset{width:min(40cqh,52cqw);height:min(40cqh,52cqw)}
+.mobile-game .board-wrap:not(.zoomed) .tile .tile-price{font-size:clamp(5px,min(20cqh,22cqw),9px)}
+.mobile-game .board-wrap:not(.zoomed) .tile .tile-name{display:none}
+}
