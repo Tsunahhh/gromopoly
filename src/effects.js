@@ -149,7 +149,7 @@ function flyTransfers(before, after, cards) {
 const RULES = [
   [/ achète | remporte /, pack.keys, 'buy'],
   [/ paie /, 'coins', 'pay'],
-  [/reçoit 200/, pack.coinRain, 'good'],
+  [/passe par le Départ et reçoit/, pack.coinRain, 'good'],
   [/construit/, pack.house, 'buy'],
   [/hypothèque/, 'mortgage', 'neutral'],
   [/ doit /, pack.broke, 'bad'],

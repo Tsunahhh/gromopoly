@@ -1,7 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { BOARD, CARDS, groups } from './board.js';
-import { applyCommand, createGame, RENT_MULTIPLIERS } from './engine.js';
+import { applyCommand, createGame, RENT_MULTIPLIERS, ECONOMY } from './engine.js';
+
+const START = ECONOMY.startCash;
 import { simulate } from '../scripts/balance.mjs';
 
 const makePlayers = count => Array.from({ length: count }, (_, i) => ({ id: `p${i}`, name: `Joueur ${i + 1}` }));
@@ -52,7 +54,7 @@ for (const [deckName, cards, landing] of [['event', CARDS.event, 7], ['city', CA
       else if (kind === 'collect') assert.equal(p.cash, startCash - Number(value) * 2);
       else if (kind === 'release') assert.equal(p.releaseCards, 1);
       else if (kind === 'jail') { assert.equal(p.pos, 10); assert.equal(p.jailed, 1); }
-      else if (kind === 'go-start') { assert.equal(p.pos, 0); assert.equal(p.cash, startCash + 200); }
+      else if (kind === 'go-start') { assert.equal(p.pos, 0); assert.equal(p.cash, startCash + ECONOMY.goSalary); }
       else if (kind === 'nearest-transport') assert.equal(p.pos, 15);
       else if (kind === 'back') assert.equal(p.pos, 5);
       else if (kind === 'go') assert.equal(p.pos, Number(value));
@@ -75,7 +77,7 @@ for (const tile of ordinaryStreets) {
       const before = s.players[0].cash;
       const previous = (tile.index - 2 + 40) % 40;
       land(s, tile.index);
-      assert.equal(s.players[0].cash, before + (previous > tile.index ? 200 : 0) - fee);
+      assert.equal(s.players[0].cash, before + (previous > tile.index ? ECONOMY.goSalary : 0) - fee);
       assert.equal(s.players[1].cash, 10000 + fee);
       assert.equal(s.phase, 'bonus');
     });
@@ -132,14 +134,14 @@ for (const seed of Array.from({ length: 24 }, (_, i) => i)) {
 test('enchère : une offre à 100 % de la trésorerie est acceptée', () => {
   const s = game();
   land(s, 5, [2, 3]); applyCommand(s, 'p0', 'pass');
-  applyCommand(s, 'p0', 'auction-bid', { amount: 1500 });
+  applyCommand(s, 'p0', 'auction-bid', { amount: START });
   applyCommand(s, 'p1', 'auction-pass');
   assert.equal(s.players[0].cash, 0);
   assert.equal(s.board[5].owner, 'p0');
 });
 test('enchère : mise supérieure à la trésorerie refusée', () => {
   const s = game(); land(s, 5, [2, 3]); applyCommand(s, 'p0', 'pass');
-  assert.throws(() => applyCommand(s, 'p0', 'auction-bid', { amount: 1501 }), /Mise insuffisante/);
+  assert.throws(() => applyCommand(s, 'p0', 'auction-bid', { amount: START + 1 }), /Mise insuffisante/);
 });
 test('enchère : échange ne peut consommer une mise engagée', () => {
   const s = game();
@@ -148,13 +150,13 @@ test('enchère : échange ne peut consommer une mise engagée', () => {
   applyCommand(s, 'p0', 'auction-bid', { amount: 1000 });
   applyCommand(s, 'p1', 'trade-accept');
   assert.equal(s.trade, null);
-  assert.equal(s.players[0].cash, 1500);
+  assert.equal(s.players[0].cash, START);
   applyCommand(s, 'p1', 'auction-pass');
-  assert.equal(s.players[0].cash, 500);
+  assert.equal(s.players[0].cash, START - 1000);
 });
 test('troisième échec au Commissariat : dette puis mouvement après règlement', () => {
   const s = game();
-  s.players[0].pos = 10; s.players[0].jailed = 1; s.players[0].jailAttempts = 2; s.players[0].cash = 0;
+  s.players[0].pos = 10; s.players[0].jailed = 1; s.players[0].jailAttempts = 2; s.players[0].cash = ECONOMY.bail - 50;
   s.board[3].owner = 'p0';
   applyCommand(s, 'p0', 'roll', {}, [1, 2]);
   assert.equal(s.phase, 'debt');
@@ -192,9 +194,9 @@ test('carte multi-joueurs : les transferts reprennent après une dette', () => {
   assert.equal(s.phase, 'debt');
   applyCommand(s, 'p1', 'debt-mortgage', { tile: 1 });
   applyCommand(s, 'p1', 'debt-settle');
-  assert.equal(s.players[0].cash, 1575);
-  assert.equal(s.players[2].cash, 1475);
-  assert.equal(s.players[3].cash, 1475);
+  assert.equal(s.players[0].cash, START + 75);
+  assert.equal(s.players[2].cash, START - 25);
+  assert.equal(s.players[3].cash, START - 25);
   assert.equal(s.pendingCard, null);
 });
 test('carte multi-joueurs : la faillite d’un débiteur ne prive pas les autres transferts', () => {
@@ -205,9 +207,9 @@ test('carte multi-joueurs : la faillite d’un débiteur ne prive pas les autres
   assert.equal(s.phase, 'debt');
   applyCommand(s, 'p1', 'debt-bankrupt');
   assert.equal(s.players[1].bankrupt, true);
-  assert.equal(s.players[0].cash, 1550);
-  assert.equal(s.players[2].cash, 1475);
-  assert.equal(s.players[3].cash, 1475);
+  assert.equal(s.players[0].cash, START + 50);
+  assert.equal(s.players[2].cash, START - 25);
+  assert.equal(s.players[3].cash, START - 25);
   assert.equal(s.pendingCard, null);
 });
 test('cotisation à plusieurs joueurs : reprend après hypothèque et règlement', () => {
@@ -219,7 +221,7 @@ test('cotisation à plusieurs joueurs : reprend après hypothèque et règlement
   applyCommand(s, 'p0', 'debt-mortgage', { tile: 3 });
   applyCommand(s, 'p0', 'debt-settle');
   assert.equal(s.players[0].cash, 20);
-  assert.deepEqual(s.players.slice(1).map(p => p.cash), [1510, 1510, 1510]);
+  assert.deepEqual(s.players.slice(1).map(p => p.cash), [START + 10, START + 10, START + 10]);
   assert.equal(s.pendingCard, null);
 });
 test('échange vide et titre en double : rejetés', () => {

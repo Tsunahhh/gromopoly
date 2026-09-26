@@ -1,10 +1,12 @@
 import assert from 'node:assert/strict';
-import { applyCommand, createGame } from '../src/engine.js';
+import { applyCommand, createGame, ECONOMY } from '../src/engine.js';
 
 function random(seed) {
   let state = seed >>> 0;
   return () => ((state = (Math.imul(state, 1664525) + 1013904223) >>> 0) / 4294967296);
 }
+// Réserves de sécurité des joueurs simulés (proches d'un joueur humain qui aime acheter).
+export const BOT = { buyReserve: 100, buildReserve: 200 };
 const dice = rng => [1 + Math.floor(rng() * 6), 1 + Math.floor(rng() * 6)];
 const own = (s, id) => s.board.map((tile, index) => ({ ...tile, index })).filter(tile => tile.owner === id);
 
@@ -23,7 +25,7 @@ function checkInvariants(s) {
 
 function buildOnce(s, id) {
   const p = s.players.find(candidate => candidate.id === id);
-  const options = own(s, id).filter(tile => tile.build && p.cash >= tile.build + 300 && s.board.filter(other => other.group === tile.group).every(other => other.owner === id && !other.mortgage) && tile.level < 4);
+  const options = own(s, id).filter(tile => tile.build && p.cash >= tile.build + BOT.buildReserve && s.board.filter(other => other.group === tile.group).every(other => other.owner === id && !other.mortgage) && tile.level < 4);
   options.sort((a, b) => a.build - b.build || a.index - b.index);
   for (const tile of options) {
     try { applyCommand(s, id, 'build', { tile: tile.index }); return true; }
@@ -68,20 +70,23 @@ export function simulate(count, seed, maxRounds = count === 2 ? 24 : count === 4
   const rng = random(seed * 92821 + count);
   const s = createGame(Array.from({ length: count }, (_, i) => ({ id: `p${i}`, name: `Joueur ${i + 1}` })), 60, { seed, randomStart: true });
   let moves = 0, purchases = 0, buildings = 0, trades = 0, steps = 0;
+  const minCash = Object.fromEntries(s.players.map(p => [p.id, p.cash]));
   while (s.status === 'playing' && steps++ < 10000) {
     const phase = s.phase;
     if (phase === 'debt') handleDebt(s);
     else if (phase === 'roll') {
-      const id = s.players[s.turn].id;
+      const id = s.players[s.turn].id, p = s.players[s.turn];
+      // Comme un joueur humain : sortir tout de suite du Commissariat si la caution laisse une réserve.
+      if (p.jailed && p.cash >= ECONOMY.bail + 300) applyCommand(s, id, 'bail');
       applyCommand(s, id, 'roll', {}, dice(rng)); moves++;
     } else if (phase === 'decision') {
       const id = s.players[s.turn].id, p = s.players[s.turn], tile = s.board[s.pending.tile];
-      if (p.cash >= tile.price + 200) { applyCommand(s, id, 'buy'); purchases++; }
+      if (p.cash >= tile.price + BOT.buyReserve) { applyCommand(s, id, 'buy'); purchases++; }
       else applyCommand(s, id, 'pass');
     } else if (phase === 'auction') {
       const id = s.auctionActor, p = s.players.find(candidate => candidate.id === id), tile = s.board[s.auction.tile];
       const bid = s.auction.highBid ? s.auction.highBid + 10 : 1;
-      if (bid <= Math.floor(tile.price * .65) && p.cash >= bid + 200) applyCommand(s, id, 'auction-bid', { amount: bid });
+      if (bid <= Math.floor(tile.price * .65) && p.cash >= bid + BOT.buyReserve) applyCommand(s, id, 'auction-bid', { amount: bid });
       else applyCommand(s, id, 'auction-pass');
     } else if (phase === 'bonus') applyCommand(s, s.players[s.turn].id, 'end');
     else if (phase === 'end') {
@@ -92,6 +97,7 @@ export function simulate(count, seed, maxRounds = count === 2 ? 24 : count === 4
       applyCommand(s, id, 'end');
     } else throw Error(`Phase inconnue: ${phase}`);
     checkInvariants(s);
+    for (const p of s.players) if (!p.bankrupt) minCash[p.id] = Math.min(minCash[p.id], p.cash);
   }
   assert.ok(steps < 10000, `Simulation bloquée: ${count} joueurs, graine ${seed}`);
   assert.equal(s.status, 'finished');
@@ -100,7 +106,26 @@ export function simulate(count, seed, maxRounds = count === 2 ? 24 : count === 4
     bankrupt: s.players.filter(p => p.bankrupt).length,
     scores: s.results.map(r => r.score),
     owned: s.board.filter(tile => tile.owner).length,
-    points: s.results.map(r => r.points)
+    points: s.results.map(r => r.points),
+    economy: economy(s, minCash)
+  };
+}
+
+// Flux d'argent reconstitués depuis le journal de la partie.
+function economy(s, minCash) {
+  const sum = re => s.log.reduce((total, { text }) => { const m = text.match(re); return total + (m ? Number(m[1]) : 0); }, 0);
+  const count = re => s.log.filter(({ text }) => re.test(text)).length;
+  const alive = s.players.filter(p => !p.bankrupt);
+  return {
+    finalCash: alive.map(p => p.cash),
+    minCash: alive.map(p => minCash[p.id]),
+    goIncome: sum(/passe par le Départ et reçoit (\d+) ¤/),
+    rentBetweenPlayers: sum(/paie (\d+) ¤ à .+ · loyer/),
+    playerTransfers: sum(/paie (\d+) ¤ à /),
+    bankPayments: sum(/paie (\d+) ¤ ·/),
+    bail: sum(/paie (\d+) ¤ · caution/),
+    jailed: count(/envoyé au Commissariat|trois doubles/),
+    bailPaidRatio: count(/paie \d+ ¤ · caution/) / Math.max(1, count(/envoyé au Commissariat|trois doubles/))
   };
 }
 
@@ -115,5 +140,8 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].replaceAll('\\',
     const runs = Array.from({ length: seeds }, (_, seed) => simulate(count, seed));
     const wins = Array.from({ length: count }, (_, seat) => runs.filter(run => run.winner === seat).length);
     console.log(JSON.stringify({ players: count, games: seeds, winnerBySeat: wins, medianRounds: median(runs.map(run => run.rounds)), medianMoves: median(runs.map(run => run.moves)), medianPurchases: median(runs.map(run => run.purchases)), medianTrades: median(runs.map(run => run.trades)), medianBuilds: median(runs.map(run => run.buildings)), medianBankrupt: median(runs.map(run => run.bankrupt)), medianTitlesOwned: median(runs.map(run => run.owned)) }));
+    const eco = key => median(runs.map(run => run.economy[key]));
+    const flat = key => median(runs.flatMap(run => run.economy[key]));
+    console.log('  économie', JSON.stringify({ finalCashMedian: flat('finalCash'), minCashMedian: flat('minCash'), goIncome: eco('goIncome'), rentBetweenPlayers: eco('rentBetweenPlayers'), playerTransfers: eco('playerTransfers'), bankPayments: eco('bankPayments'), bail: eco('bail'), jailed: eco('jailed'), bankruptGames: runs.filter(run => run.bankrupt).length }));
   }
 }

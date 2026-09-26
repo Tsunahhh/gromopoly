@@ -28,6 +28,8 @@
 
 Toutes les sommes utilisent l'unité fictive **¤**. Les montants ci-dessous sont les valeurs de référence, regroupées dans une source unique de données du jeu.
 
+> **Montants mis à jour depuis ce plan initial** (argent de départ, Départ, caution, loyers, navettes, services, cartes) : voir « Rééquilibrage de l'économie » dans [BALANCE_ET_TESTS.md](BALANCE_ET_TESTS.md). Les valeurs en vigueur sont dans `src/engine.js` (`ECONOMY`, `RENT_MULTIPLIERS`) et `src/board.js`.
+
 | Paramètre | Valeur | Règle |
 |---|---:|---|
 | Argent de départ | 1 500 ¤ | Chaque joueur reçoit ce montant au lancement. |

@@ -15,11 +15,41 @@ npm run balance
 
 ## Hypothèses de la simulation
 
-Les joueurs simulés lancent des dés issus d'une graine fixe, achètent un titre en gardant 200 ¤ de réserve, enchérissent jusqu'à 65 % du prix imprimé, proposent une offre à 125 % du prix pour compléter un groupe, construisent en gardant 300 ¤ de réserve et liquident leurs actifs pour payer les dettes. Ils ne cherchent pas des stratégies avancées et acceptent systématiquement ces offres de regroupement. Les parties simulées durent 24 tours complets à deux joueurs, 12 à quatre et 8 à six ; cela représente un nombre de lancers comparable entre formats. Le tirage initial choisit le premier joueur au hasard de manière reproductible.
+Les joueurs simulés lancent des dés issus d'une graine fixe, achètent un titre en gardant 100 ¤ de réserve (`BOT.buyReserve`), enchérissent jusqu'à 65 % du prix imprimé, proposent une offre à 125 % du prix pour compléter un groupe, construisent en gardant 200 ¤ de réserve (`BOT.buildReserve`), paient la caution du Commissariat s'il leur reste ensuite 300 ¤ et liquident leurs actifs pour payer les dettes. Ils ne cherchent pas des stratégies avancées et acceptent systématiquement ces offres de regroupement. Les parties simulées durent 24 tours complets à deux joueurs, 12 à quatre et 8 à six ; cela représente un nombre de lancers comparable entre formats. Le tirage initial choisit le premier joueur au hasard de manière reproductible.
 
 Ces bots servent à repérer des déséquilibres grossiers et des blocages. Leurs résultats ne prouvent pas qu'une stratégie humaine ou un salon particulier sera équilibré, et ils ne mesurent pas directement le plaisir de jouer.
 
-## Mesures après réglage
+## Rééquilibrage de l'économie (septembre 2026)
+
+Constat : les joueurs accumulaient de l'argent et sortir du Commissariat ne coûtait presque rien. Sur une partie à 4 joueurs, **tous les loyers payés entre joueurs ne représentaient que 390 ¤**, contre 1 400 ¤ versés par le Départ, et aucune partie ne se terminait par une faillite.
+
+Tous les réglages sont regroupés dans `ECONOMY` et `RENT_MULTIPLIERS` (`src/engine.js`) ; les loyers de base et les cartes sont dans `src/board.js`. L'interface lit ces valeurs, il n'y a aucun montant à modifier ailleurs.
+
+| Réglage | Avant | Après |
+|---|---:|---:|
+| Argent de départ | 1 500 ¤ | 1 200 ¤ |
+| Passage par le Départ | 200 ¤ | 150 ¤ |
+| Caution du Commissariat | 50 ¤ | 100 ¤ |
+| Loyer de base des rues | 6 à 40 ¤ | 15 à 100 ¤ (×2,5) |
+| Multiplicateurs 1 / 2 / 3 maisons / immeuble | 4 / 10 / 20 / 30 | 3 / 6 / 9 / 12 |
+| Plus gros loyer (immeuble sur la Tour des Aurores) | 1 200 ¤ | 1 200 ¤ |
+| Navettes (1 / 2 / 3 / 4 possédées) | 25 / 50 / 100 / 200 ¤ | 40 / 80 / 140 / 220 ¤ |
+| Services (1 / 2 possédés) | 4 × / 10 × les dés | 6 × / 15 × les dés |
+| Cartes | solde nettement positif | gains et pertes à peu près équilibrés |
+
+Mesures à 4 joueurs (médianes, mêmes joueurs simulés) :
+
+| | Avant | Après |
+|---|---:|---:|
+| Argent en fin de partie | 466 ¤ | 230 ¤ |
+| Argent au plus bas pendant la partie | 320 ¤ | 134 ¤ |
+| Loyers payés entre joueurs (toute la partie) | 390 ¤ | 759 ¤ |
+| Revenus du Départ (toute la partie) | 1 400 ¤ | 1 050 ¤ |
+| Victoires par place (3 000 parties) | — | 24,4 / 25,4 / 25,2 / 24,9 % |
+
+Pour essayer d'autres réglages sans modifier le jeu : `node scripts/tune-economy.mjs 200 '{"essai":{"economy":{"bail":150},"rentFactor":1.2}}'`.
+
+## Mesures après réglage (version précédente)
 
 Résultat de `npm run balance` avec 1 000 graines par format :
 
