@@ -1,0 +1,429 @@
+[
+  {
+    "id": "ui-livre-regles",
+    "method": "built-in imagegen",
+    "prompt": null,
+    "note": "Prompt original non conservé ; voir le sujet dans le brief.",
+    "source": "assets/source/pack-2/ui-livre-regles.png"
+  },
+  {
+    "id": "ui-animations-on",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-animations-on. Subject: three chubby golden sparkles of different sizes with a small lavender swirl. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-animations-on.png"
+  },
+  {
+    "id": "ui-animations-off",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-animations-off. Subject: one sleepy golden sparkle with closed eyes and a lavender nightcap, resting on a cream crescent moon. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-animations-off.png"
+  },
+  {
+    "id": "ui-journal-gazette",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-journal-gazette. Subject: a folded cream newspaper with columns of plain lines instead of letters, a tiny house drawing on the front page, one dog-eared corner. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-journal-gazette.png"
+  },
+  {
+    "id": "ui-options-boite-outils",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-options-boite-outils. Subject: a small half-open mint toolbox with a coral screwdriver and a golden wrench sticking out. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-options-boite-outils.png"
+  },
+  {
+    "id": "ui-porte-sortie",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-porte-sortie. Subject: a rounded lavender front door slightly open, a small coral doormat, a curved golden arrow pointing outside. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-porte-sortie.png"
+  },
+  {
+    "id": "ui-sablier",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-sablier. Subject: a chubby hourglass with a coral frame and flowing golden sand, two comic sweat drops. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-sablier.png"
+  },
+  {
+    "id": "ui-invitation-billet",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-invitation-billet. Subject: a cream invitation ticket with scalloped edges, a small mint house printed on it and a coral ribbon. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-invitation-billet.png"
+  },
+  {
+    "id": "ui-place-libre",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-place-libre. Subject: an empty round board-game pawn silhouette drawn with lavender dashed outline, a small golden plus shape floating next to it. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-place-libre.png"
+  },
+  {
+    "id": "ui-connexion-perdue",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-connexion-perdue. Subject: two cream cable plugs facing each other unplugged, a tiny spark between them, embarrassed cute faces. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-connexion-perdue.png"
+  },
+  {
+    "id": "ui-trone-libre",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID ui-trone-libre. Subject: a small empty coral velvet throne with golden legs, a mint cushion and a crown lying crooked on the seat. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/ui-trone-libre.png"
+  },
+  {
+    "id": "app-icone",
+    "method": "built-in imagegen",
+    "prompt": "Remove only lavender background, preserving die and house illustration.",
+    "source": "assets/source/pack-2/app-icone.png"
+  },
+  {
+    "id": "og-partage",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID og-partage. Subject: landscape scene of a pastel French miniature town seen from above on the right 60% of the image, two giant cream dice and three animal pawns (frog, fox, panda) in the streets; the left 40% is a calm nearly empty peach sky left free for a title. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Canvas 1200x630. Full opaque background as specified in subject. Respect exact composition. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/og-partage.png"
+  },
+  {
+    "id": "carte-theatre-prime-creative",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-prime-creative. Subject: a golden painter palette with three coins bursting out of it and a coral paintbrush in the air. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-prime-creative.png"
+  },
+  {
+    "id": "carte-theatre-achat-impulsif",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-achat-impulsif. Subject: a coral shopping bag overflowing with silly items (rubber duck, feathered hat), one coin running away. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-achat-impulsif.png"
+  },
+  {
+    "id": "carte-theatre-travaux-facade",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-travaux-facade. Subject: a small house facade under scaffolding, a tipped-over paint pot and a mint paint roller. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-travaux-facade.png"
+  },
+  {
+    "id": "carte-theatre-avance-navette",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-avance-navette. Subject: a small mint tram speeding with motion lines, a frog pawn hanging on to the back. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-avance-navette.png"
+  },
+  {
+    "id": "carte-theatre-reculer",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-reculer. Subject: a surprised fox pawn walking backwards over two small paving tiles, a curved lavender arrow pointing back. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-reculer.png"
+  },
+  {
+    "id": "carte-theatre-defi-artistique",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-defi-artistique. Subject: an easel with an abstract colorful painting and a golden prize ribbon pinned to it. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-defi-artistique.png"
+  },
+  {
+    "id": "carte-theatre-route-depart",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-route-depart. Subject: a coral rocket taking off from a small roundabout with a puff of cream smoke. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-route-depart.png"
+  },
+  {
+    "id": "carte-theatre-visite-commissariat",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-visite-commissariat. Subject: a golden police whistle and a blue police cap resting on fluffy lavender toy handcuffs. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-visite-commissariat.png"
+  },
+  {
+    "id": "carte-theatre-bourse-creative",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-bourse-creative. Subject: a coral cloth purse tied with a ribbon, a smiling theater mask sewn on it, coins spilling out. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-bourse-creative.png"
+  },
+  {
+    "id": "carte-theatre-cotisation-quartier",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-cotisation-quartier. Subject: a glass donation jar with a slotted lid, a cartoon hand dropping coins into it. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-cotisation-quartier.png"
+  },
+  {
+    "id": "carte-theatre-voisins-merci",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-voisins-merci. Subject: three small smiling houses each holding out a coin, little coral hearts around them. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-voisins-merci.png"
+  },
+  {
+    "id": "carte-theatre-tour-aurores",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-theatre-tour-aurores. Subject: a slender sapphire tower with a mint and lavender aurora ribbon at the top, a tiny pawn looking up. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-theatre-tour-aurores.png"
+  },
+  {
+    "id": "carte-ville-bourse-municipale",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-bourse-municipale. Subject: a small lavender town hall with a flag, a cream envelope full of coins coming out of the door. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-bourse-municipale.png"
+  },
+  {
+    "id": "carte-ville-stationnement",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-stationnement. Subject: a small mint car badly parked on a sidewalk with a blank cream parking ticket on the windshield. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-stationnement.png"
+  },
+  {
+    "id": "carte-ville-remboursement",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-remboursement. Subject: an open lavender envelope with two coins and a curved golden return arrow. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-remboursement.png"
+  },
+  {
+    "id": "carte-ville-cotisation-municipale",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-cotisation-municipale. Subject: a greedy coral municipal mailbox swallowing coins. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-cotisation-municipale.png"
+  },
+  {
+    "id": "carte-ville-concours-quartier",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-concours-quartier. Subject: a giant prize-winning pumpkin with a golden rosette ribbon. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-concours-quartier.png"
+  },
+  {
+    "id": "carte-ville-avance-depart",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-avance-depart. Subject: a round mint road sign with an arrow pointing to a tiny rocket, no text. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-avance-depart.png"
+  },
+  {
+    "id": "carte-ville-commissariat",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-commissariat. Subject: a small blue cell door with bars and a sulking panda pawn behind it. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-commissariat.png"
+  },
+  {
+    "id": "carte-ville-liberation",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-liberation. Subject: a giant golden key opening a heart-shaped padlock with sparkles. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-liberation.png"
+  },
+  {
+    "id": "carte-ville-coup-de-pouce",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-coup-de-pouce. Subject: a cartoon hand offering a coin to three small hands, a little bunting garland behind. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-coup-de-pouce.png"
+  },
+  {
+    "id": "carte-ville-participation",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-participation. Subject: a cream ballot box with folded blank ballots and a lavender and mint rosette. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-participation.png"
+  },
+  {
+    "id": "carte-ville-prime-voisinage",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-prime-voisinage. Subject: a steaming pie resting on a stack of coins, two small smiling neighbor windows behind it. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-prime-voisinage.png"
+  },
+  {
+    "id": "carte-ville-travaux-municipaux",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID carte-ville-travaux-municipaux. Subject: a coral traffic cone, a mint shovel and a striped barrier in front of a hole in the cobblestones. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/carte-ville-travaux-municipaux.png"
+  },
+  {
+    "id": "recompense-medaille-argent",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID recompense-medaille-argent. Subject: a chubby silver medal with a lavender ribbon and an embossed star. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/recompense-medaille-argent.png"
+  },
+  {
+    "id": "recompense-medaille-bronze",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID recompense-medaille-bronze. Subject: a chubby bronze medal with a mint ribbon and an embossed tiny house. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/recompense-medaille-bronze.png"
+  },
+  {
+    "id": "badge-batisseur",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID badge-batisseur. Subject: a yellow hard hat resting on a trowel and a coral brick. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/badge-batisseur.png"
+  },
+  {
+    "id": "badge-negociateur",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID badge-negociateur. Subject: two property cards swapping places in a swirl with a golden star between them. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/badge-negociateur.png"
+  },
+  {
+    "id": "badge-rentier",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID badge-rentier. Subject: a mint deck chair with a stack of coins, sunglasses and a drink with a straw. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/badge-rentier.png"
+  },
+  {
+    "id": "badge-collectionneur",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID badge-collectionneur. Subject: an open lavender album filled with small colorful house stickers. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/badge-collectionneur.png"
+  },
+  {
+    "id": "badge-explorateur",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID badge-explorateur. Subject: a golden compass on a folded treasure map with coral dotted path. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/badge-explorateur.png"
+  },
+  {
+    "id": "rue-ateliers",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-ateliers. Subject: a small workshop with a copper roof (#bb7657), an anvil and a cog wheel by the door. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-ateliers.png"
+  },
+  {
+    "id": "rue-artisans",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-artisans. Subject: a covered copper-toned (#bb7657) archway passage with a pottery stall and a wooden chair. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-artisans.png"
+  },
+  {
+    "id": "rue-fresques",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-fresques. Subject: an azure (#54b8df) house wall covered with a colorful abstract mural, paint pots at its foot. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-fresques.png"
+  },
+  {
+    "id": "rue-musiciens",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-musiciens. Subject: a round bandstand with an azure (#54b8df) roof, a trumpet and a violin resting on the railing. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-musiciens.png"
+  },
+  {
+    "id": "rue-inventeurs",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-inventeurs. Subject: an azure (#54b8df) quayside workshop with a light-bulb weather vane and a small moored boat. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-inventeurs.png"
+  },
+  {
+    "id": "rue-lanternes",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-lanternes. Subject: a lavender (#aa83cf) house with a string of glowing paper lanterns. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-lanternes.png"
+  },
+  {
+    "id": "rue-livres",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-livres. Subject: an open-air lavender (#aa83cf) book kiosk under a small tree, piles of books without titles. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-livres.png"
+  },
+  {
+    "id": "rue-cinemas",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-cinemas. Subject: a small lavender (#aa83cf) cinema facade with a marquee of light bulbs (no letters) and a popcorn cone. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-cinemas.png"
+  },
+  {
+    "id": "rue-saveurs",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-saveurs. Subject: a bistro with a coral (#fa7c68) striped awning, a steaming pot and a small terrace table. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-saveurs.png"
+  },
+  {
+    "id": "rue-epices",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-epices. Subject: a small coral-toned (#fa7c68) garden with open sacks of colorful spices and a giant chili pepper. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-epices.png"
+  },
+  {
+    "id": "rue-festival",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-festival. Subject: a small open-air coral (#fa7c68) stage with bunting, balloons and a spotlight. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-festival.png"
+  },
+  {
+    "id": "rue-etoiles",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-etoiles. Subject: a small observatory with a ruby (#dc5572) dome and a telescope pointing at a golden star. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-etoiles.png"
+  },
+  {
+    "id": "rue-studios",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-studios. Subject: a ruby (#dc5572) film studio with a reel camera, a blank clapperboard and a spotlight. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-studios.png"
+  },
+  {
+    "id": "rue-spectacles",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-spectacles. Subject: a ruby (#dc5572) and cream striped circus tent with a flag on top. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-spectacles.png"
+  },
+  {
+    "id": "rue-serres",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-serres. Subject: a golden (#e3b94f) arched glass greenhouse full of green plants. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-serres.png"
+  },
+  {
+    "id": "rue-soleil",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Generate ONE final PNG illustration for the indie French property board game Cité Capitale. Asset ID rue-soleil. Subject: a small plaza fountain topped by a smiling golden (#e3b94f) sun sculpture. Hand-painted 2D cartoon matching a warm polished board game sprite pack: bold regular dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df, coral #fa7c68, mint #8fd3b6, lavender #aa83cf and gold #ffbd59. Slight three-quarter view. Clear simple silhouette readable at 24–32 pixels. Square 1024x1024. Entire subject centered, 15% empty margin on every edge, perfectly flat solid #FF00FF chroma key background. No ground plane or cast shadow. No text, letters, numbers, logo, watermark, signature, border or frame.",
+    "source": "assets/source/pack-2/rue-soleil.png"
+  },
+  {
+    "id": "rue-verrieres",
+    "method": "built-in imagegen",
+    "prompt": "Transparent sprite as requested; a covered gallery with a golden (#e3b94f) glass roof, street lamps and benches",
+    "source": "assets/source/pack-2/rue-verrieres.png"
+  },
+  {
+    "id": "rue-horizons",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: an emerald (#54b889) harbor master house with a spyglass on the roof and a life buoy. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/rue-horizons.png"
+  },
+  {
+    "id": "rue-jardins",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: an emerald (#54b889) garden gazebo surrounded by round topiary hedges. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/rue-jardins.png"
+  },
+  {
+    "id": "rue-phare",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: a small emerald (#54b889) and cream striped lighthouse with a café terrace at its base. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/rue-phare.png"
+  },
+  {
+    "id": "rue-nuages",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: a sapphire (#607fe0) tower whose roof is a fluffy cloud, a small bridge to a second little cloud. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/rue-nuages.png"
+  },
+  {
+    "id": "rue-aurores",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: the tallest sapphire (#607fe0) tower with a small crown and an aurora ribbon at the top, prestigious. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/rue-aurores.png"
+  },
+  {
+    "id": "navette-nord",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: a mint tram with a snowy roof and a scarf on the driver. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/navette-nord.png"
+  },
+  {
+    "id": "navette-est",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: a mint tram with an orange rising sun behind it. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/navette-est.png"
+  },
+  {
+    "id": "navette-sud",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: a mint tram decorated with a palm tree and wearing sunglasses. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/navette-sud.png"
+  },
+  {
+    "id": "navette-ouest",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: a mint tram in front of a coral sunset over the sea. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/navette-ouest.png"
+  },
+  {
+    "id": "taxe-patrimoine",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. ONE isolated handpainted 2D cartoon sprite for Cité Capitale. Subject: a small golden safe with a cream receipt coming out and a lavender magnifying glass resting on it. Bold dark plum #342d47 outlines, rounded chunky slightly crooked forms, subtle gouache paper grain, butter cream #fff4df coral #fa7c68 mint #8fd3b6 lavender #aa83cf gold #ffbd59. Match previous board game illustrations. Simple clear silhouette at 24–32px. Entire subject centered, 15% empty margin on all edges. Square1024x1024, TRANSPARENT background, no ground plane or cast shadow. No text letters numbers logos watermark or frame.",
+    "source": "assets/source/pack-2/taxe-patrimoine.png"
+  }
+]

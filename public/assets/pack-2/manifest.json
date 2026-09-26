@@ -7,13 +7,13 @@
         "url": "/assets/pack-2/ui-livre-regles.webp",
         "width": 96,
         "height": 96,
-        "bytes": 4524
+        "bytes": 4626
       },
       "ui-livre-regles-256.webp": {
         "url": "/assets/pack-2/ui-livre-regles-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 16210
+        "bytes": 16894
       }
     }
   },
@@ -25,13 +25,13 @@
         "url": "/assets/pack-2/ui-animations-on.webp",
         "width": 96,
         "height": 96,
-        "bytes": 5688
+        "bytes": 5852
       },
       "ui-animations-on-256.webp": {
         "url": "/assets/pack-2/ui-animations-on-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 18396
+        "bytes": 20062
       }
     }
   },
@@ -43,13 +43,13 @@
         "url": "/assets/pack-2/ui-animations-off.webp",
         "width": 96,
         "height": 96,
-        "bytes": 4420
+        "bytes": 4978
       },
       "ui-animations-off-256.webp": {
         "url": "/assets/pack-2/ui-animations-off-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15038
+        "bytes": 18028
       }
     }
   },
@@ -61,13 +61,13 @@
         "url": "/assets/pack-2/ui-journal-gazette.webp",
         "width": 96,
         "height": 96,
-        "bytes": 4426
+        "bytes": 4478
       },
       "ui-journal-gazette-256.webp": {
         "url": "/assets/pack-2/ui-journal-gazette-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17188
+        "bytes": 17550
       }
     }
   },
@@ -79,13 +79,13 @@
         "url": "/assets/pack-2/ui-options-boite-outils.webp",
         "width": 96,
         "height": 96,
-        "bytes": 4606
+        "bytes": 4682
       },
       "ui-options-boite-outils-256.webp": {
         "url": "/assets/pack-2/ui-options-boite-outils-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 16396
+        "bytes": 17200
       }
     }
   },
@@ -97,13 +97,13 @@
         "url": "/assets/pack-2/ui-porte-sortie.webp",
         "width": 96,
         "height": 96,
-        "bytes": 3630
+        "bytes": 3906
       },
       "ui-porte-sortie-256.webp": {
         "url": "/assets/pack-2/ui-porte-sortie-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 12828
+        "bytes": 14392
       }
     }
   },
@@ -115,13 +115,13 @@
         "url": "/assets/pack-2/ui-sablier.webp",
         "width": 96,
         "height": 96,
-        "bytes": 4390
+        "bytes": 4698
       },
       "ui-sablier-256.webp": {
         "url": "/assets/pack-2/ui-sablier-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15612
+        "bytes": 17668
       }
     }
   },
@@ -133,13 +133,13 @@
         "url": "/assets/pack-2/ui-invitation-billet.webp",
         "width": 96,
         "height": 96,
-        "bytes": 4102
+        "bytes": 4160
       },
       "ui-invitation-billet-256.webp": {
         "url": "/assets/pack-2/ui-invitation-billet-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15066
+        "bytes": 15716
       }
     }
   },
@@ -151,13 +151,13 @@
         "url": "/assets/pack-2/ui-place-libre.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6764
+        "bytes": 6810
       },
       "ui-place-libre-256.webp": {
         "url": "/assets/pack-2/ui-place-libre-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15352
+        "bytes": 15792
       }
     }
   },
@@ -169,13 +169,13 @@
         "url": "/assets/pack-2/ui-connexion-perdue.webp",
         "width": 160,
         "height": 160,
-        "bytes": 8020
+        "bytes": 8330
       },
       "ui-connexion-perdue-256.webp": {
         "url": "/assets/pack-2/ui-connexion-perdue-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 14612
+        "bytes": 15332
       }
     }
   },
@@ -187,13 +187,13 @@
         "url": "/assets/pack-2/ui-trone-libre.webp",
         "width": 160,
         "height": 160,
-        "bytes": 7296
+        "bytes": 7172
       },
       "ui-trone-libre-256.webp": {
         "url": "/assets/pack-2/ui-trone-libre-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 13702
+        "bytes": 13696
       }
     }
   },
@@ -205,31 +205,31 @@
         "url": "/assets/pack-2/favicon-32.png",
         "width": 32,
         "height": 32,
-        "bytes": 1724
+        "bytes": 1852
       },
       "favicon-64.png": {
         "url": "/assets/pack-2/favicon-64.png",
         "width": 64,
         "height": 64,
-        "bytes": 3528
+        "bytes": 3552
       },
       "app-icone-512.png": {
         "url": "/assets/pack-2/app-icone-512.png",
         "width": 512,
         "height": 512,
-        "bytes": 70669
+        "bytes": 67774
       },
       "app-icone-192.png": {
         "url": "/assets/pack-2/app-icone-192.png",
         "width": 192,
         "height": 192,
-        "bytes": 13626
+        "bytes": 13592
       },
       "app-icone-180.png": {
         "url": "/assets/pack-2/app-icone-180.png",
         "width": 180,
         "height": 180,
-        "bytes": 12152
+        "bytes": 12089
       }
     }
   },
@@ -241,7 +241,7 @@
         "url": "/assets/pack-2/og-partage.jpg",
         "width": 1200,
         "height": 630,
-        "bytes": 189024
+        "bytes": 189200
       }
     }
   },
@@ -253,13 +253,13 @@
         "url": "/assets/pack-2/carte-theatre-prime-creative.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8502
+        "bytes": 8122
       },
       "carte-theatre-prime-creative-256.webp": {
         "url": "/assets/pack-2/carte-theatre-prime-creative-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 21006
+        "bytes": 20000
       }
     }
   },
@@ -271,13 +271,13 @@
         "url": "/assets/pack-2/carte-theatre-achat-impulsif.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8216
+        "bytes": 8484
       },
       "carte-theatre-achat-impulsif-256.webp": {
         "url": "/assets/pack-2/carte-theatre-achat-impulsif-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 21166
+        "bytes": 21968
       }
     }
   },
@@ -289,13 +289,13 @@
         "url": "/assets/pack-2/carte-theatre-travaux-facade.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7018
+        "bytes": 7882
       },
       "carte-theatre-travaux-facade-256.webp": {
         "url": "/assets/pack-2/carte-theatre-travaux-facade-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 18738
+        "bytes": 20906
       }
     }
   },
@@ -307,13 +307,13 @@
         "url": "/assets/pack-2/carte-theatre-avance-navette.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7440
+        "bytes": 7846
       },
       "carte-theatre-avance-navette-256.webp": {
         "url": "/assets/pack-2/carte-theatre-avance-navette-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19558
+        "bytes": 20354
       }
     }
   },
@@ -325,13 +325,13 @@
         "url": "/assets/pack-2/carte-theatre-reculer.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6852
+        "bytes": 7490
       },
       "carte-theatre-reculer-256.webp": {
         "url": "/assets/pack-2/carte-theatre-reculer-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 16790
+        "bytes": 18298
       }
     }
   },
@@ -343,13 +343,13 @@
         "url": "/assets/pack-2/carte-theatre-defi-artistique.webp",
         "width": 128,
         "height": 128,
-        "bytes": 5430
+        "bytes": 5946
       },
       "carte-theatre-defi-artistique-256.webp": {
         "url": "/assets/pack-2/carte-theatre-defi-artistique-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 13160
+        "bytes": 14154
       }
     }
   },
@@ -361,13 +361,13 @@
         "url": "/assets/pack-2/carte-theatre-route-depart.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6166
+        "bytes": 6200
       },
       "carte-theatre-route-depart-256.webp": {
         "url": "/assets/pack-2/carte-theatre-route-depart-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15430
+        "bytes": 15444
       }
     }
   },
@@ -379,13 +379,13 @@
         "url": "/assets/pack-2/carte-theatre-visite-commissariat.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6832
+        "bytes": 7300
       },
       "carte-theatre-visite-commissariat-256.webp": {
         "url": "/assets/pack-2/carte-theatre-visite-commissariat-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17236
+        "bytes": 18236
       }
     }
   },
@@ -397,13 +397,13 @@
         "url": "/assets/pack-2/carte-theatre-bourse-creative.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7744
+        "bytes": 8540
       },
       "carte-theatre-bourse-creative-256.webp": {
         "url": "/assets/pack-2/carte-theatre-bourse-creative-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19238
+        "bytes": 20734
       }
     }
   },
@@ -415,13 +415,13 @@
         "url": "/assets/pack-2/carte-theatre-cotisation-quartier.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6074
+        "bytes": 6678
       },
       "carte-theatre-cotisation-quartier-256.webp": {
         "url": "/assets/pack-2/carte-theatre-cotisation-quartier-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15608
+        "bytes": 16678
       }
     }
   },
@@ -433,13 +433,13 @@
         "url": "/assets/pack-2/carte-theatre-voisins-merci.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7060
+        "bytes": 7394
       },
       "carte-theatre-voisins-merci-256.webp": {
         "url": "/assets/pack-2/carte-theatre-voisins-merci-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19016
+        "bytes": 19690
       }
     }
   },
@@ -451,13 +451,13 @@
         "url": "/assets/pack-2/carte-theatre-tour-aurores.webp",
         "width": 128,
         "height": 128,
-        "bytes": 4548
+        "bytes": 4854
       },
       "carte-theatre-tour-aurores-256.webp": {
         "url": "/assets/pack-2/carte-theatre-tour-aurores-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 11522
+        "bytes": 12044
       }
     }
   },
@@ -469,13 +469,13 @@
         "url": "/assets/pack-2/carte-ville-bourse-municipale.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6484
+        "bytes": 6556
       },
       "carte-ville-bourse-municipale-256.webp": {
         "url": "/assets/pack-2/carte-ville-bourse-municipale-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15954
+        "bytes": 15816
       }
     }
   },
@@ -487,13 +487,13 @@
         "url": "/assets/pack-2/carte-ville-stationnement.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6344
+        "bytes": 7056
       },
       "carte-ville-stationnement-256.webp": {
         "url": "/assets/pack-2/carte-ville-stationnement-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 16634
+        "bytes": 18192
       }
     }
   },
@@ -505,13 +505,13 @@
         "url": "/assets/pack-2/carte-ville-remboursement.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6360
+        "bytes": 6852
       },
       "carte-ville-remboursement-256.webp": {
         "url": "/assets/pack-2/carte-ville-remboursement-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 16250
+        "bytes": 16796
       }
     }
   },
@@ -523,13 +523,13 @@
         "url": "/assets/pack-2/carte-ville-cotisation-municipale.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6968
+        "bytes": 7166
       },
       "carte-ville-cotisation-municipale-256.webp": {
         "url": "/assets/pack-2/carte-ville-cotisation-municipale-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17574
+        "bytes": 18424
       }
     }
   },
@@ -541,13 +541,13 @@
         "url": "/assets/pack-2/carte-ville-concours-quartier.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7814
+        "bytes": 8206
       },
       "carte-ville-concours-quartier-256.webp": {
         "url": "/assets/pack-2/carte-ville-concours-quartier-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19672
+        "bytes": 20688
       }
     }
   },
@@ -559,13 +559,13 @@
         "url": "/assets/pack-2/carte-ville-avance-depart.webp",
         "width": 128,
         "height": 128,
-        "bytes": 5300
+        "bytes": 5392
       },
       "carte-ville-avance-depart-256.webp": {
         "url": "/assets/pack-2/carte-ville-avance-depart-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 12736
+        "bytes": 12886
       }
     }
   },
@@ -577,13 +577,13 @@
         "url": "/assets/pack-2/carte-ville-commissariat.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7390
+        "bytes": 8118
       },
       "carte-ville-commissariat-256.webp": {
         "url": "/assets/pack-2/carte-ville-commissariat-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 18124
+        "bytes": 19138
       }
     }
   },
@@ -595,13 +595,13 @@
         "url": "/assets/pack-2/carte-ville-liberation.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7820
+        "bytes": 7986
       },
       "carte-ville-liberation-256.webp": {
         "url": "/assets/pack-2/carte-ville-liberation-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19686
+        "bytes": 19930
       }
     }
   },
@@ -613,13 +613,13 @@
         "url": "/assets/pack-2/carte-ville-coup-de-pouce.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8862
+        "bytes": 8808
       },
       "carte-ville-coup-de-pouce-256.webp": {
         "url": "/assets/pack-2/carte-ville-coup-de-pouce-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 21002
+        "bytes": 21058
       }
     }
   },
@@ -631,13 +631,13 @@
         "url": "/assets/pack-2/carte-ville-participation.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6032
+        "bytes": 6318
       },
       "carte-ville-participation-256.webp": {
         "url": "/assets/pack-2/carte-ville-participation-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 14908
+        "bytes": 15210
       }
     }
   },
@@ -649,13 +649,13 @@
         "url": "/assets/pack-2/carte-ville-prime-voisinage.webp",
         "width": 128,
         "height": 128,
-        "bytes": 9710
+        "bytes": 10148
       },
       "carte-ville-prime-voisinage-256.webp": {
         "url": "/assets/pack-2/carte-ville-prime-voisinage-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 25306
+        "bytes": 26158
       }
     }
   },
@@ -667,13 +667,13 @@
         "url": "/assets/pack-2/carte-ville-travaux-municipaux.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7686
+        "bytes": 7836
       },
       "carte-ville-travaux-municipaux-256.webp": {
         "url": "/assets/pack-2/carte-ville-travaux-municipaux-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19484
+        "bytes": 20364
       }
     }
   },
@@ -685,13 +685,13 @@
         "url": "/assets/pack-2/recompense-medaille-argent.webp",
         "width": 128,
         "height": 128,
-        "bytes": 5280
+        "bytes": 4862
       },
       "recompense-medaille-argent-256.webp": {
         "url": "/assets/pack-2/recompense-medaille-argent-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 12582
+        "bytes": 11540
       }
     }
   },
@@ -703,13 +703,13 @@
         "url": "/assets/pack-2/recompense-medaille-bronze.webp",
         "width": 128,
         "height": 128,
-        "bytes": 5216
+        "bytes": 5208
       },
       "recompense-medaille-bronze-256.webp": {
         "url": "/assets/pack-2/recompense-medaille-bronze-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 12486
+        "bytes": 12594
       }
     }
   },
@@ -721,13 +721,13 @@
         "url": "/assets/pack-2/badge-batisseur.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6384
+        "bytes": 6882
       },
       "badge-batisseur-256.webp": {
         "url": "/assets/pack-2/badge-batisseur-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15474
+        "bytes": 16356
       }
     }
   },
@@ -739,13 +739,13 @@
         "url": "/assets/pack-2/badge-negociateur.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8190
+        "bytes": 8544
       },
       "badge-negociateur-256.webp": {
         "url": "/assets/pack-2/badge-negociateur-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 21296
+        "bytes": 21848
       }
     }
   },
@@ -757,13 +757,13 @@
         "url": "/assets/pack-2/badge-rentier.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8696
+        "bytes": 8908
       },
       "badge-rentier-256.webp": {
         "url": "/assets/pack-2/badge-rentier-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 21544
+        "bytes": 21748
       }
     }
   },
@@ -775,13 +775,13 @@
         "url": "/assets/pack-2/badge-collectionneur.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6538
+        "bytes": 6700
       },
       "badge-collectionneur-256.webp": {
         "url": "/assets/pack-2/badge-collectionneur-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17042
+        "bytes": 17720
       }
     }
   },
@@ -793,13 +793,13 @@
         "url": "/assets/pack-2/badge-explorateur.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6866
+        "bytes": 6992
       },
       "badge-explorateur-256.webp": {
         "url": "/assets/pack-2/badge-explorateur-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17068
+        "bytes": 17698
       }
     }
   },
@@ -811,13 +811,13 @@
         "url": "/assets/pack-2/rue-ateliers.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6796
+        "bytes": 7098
       },
       "rue-ateliers-256.webp": {
         "url": "/assets/pack-2/rue-ateliers-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 18816
+        "bytes": 19442
       }
     }
   },
@@ -829,13 +829,13 @@
         "url": "/assets/pack-2/rue-artisans.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7868
+        "bytes": 8048
       },
       "rue-artisans-256.webp": {
         "url": "/assets/pack-2/rue-artisans-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 21456
+        "bytes": 21960
       }
     }
   },
@@ -847,13 +847,13 @@
         "url": "/assets/pack-2/rue-fresques.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6998
+        "bytes": 7652
       },
       "rue-fresques-256.webp": {
         "url": "/assets/pack-2/rue-fresques-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17046
+        "bytes": 18634
       }
     }
   },
@@ -865,13 +865,13 @@
         "url": "/assets/pack-2/rue-musiciens.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8058
+        "bytes": 8354
       },
       "rue-musiciens-256.webp": {
         "url": "/assets/pack-2/rue-musiciens-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 21894
+        "bytes": 22272
       }
     }
   },
@@ -883,13 +883,13 @@
         "url": "/assets/pack-2/rue-inventeurs.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7046
+        "bytes": 7126
       },
       "rue-inventeurs-256.webp": {
         "url": "/assets/pack-2/rue-inventeurs-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19822
+        "bytes": 19734
       }
     }
   },
@@ -901,13 +901,13 @@
         "url": "/assets/pack-2/rue-lanternes.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7000
+        "bytes": 7660
       },
       "rue-lanternes-256.webp": {
         "url": "/assets/pack-2/rue-lanternes-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17878
+        "bytes": 18724
       }
     }
   },
@@ -919,13 +919,13 @@
         "url": "/assets/pack-2/rue-livres.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8400
+        "bytes": 8604
       },
       "rue-livres-256.webp": {
         "url": "/assets/pack-2/rue-livres-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 22590
+        "bytes": 22902
       }
     }
   },
@@ -937,13 +937,13 @@
         "url": "/assets/pack-2/rue-cinemas.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7424
+        "bytes": 7606
       },
       "rue-cinemas-256.webp": {
         "url": "/assets/pack-2/rue-cinemas-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19034
+        "bytes": 19266
       }
     }
   },
@@ -955,13 +955,13 @@
         "url": "/assets/pack-2/rue-saveurs.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8360
+        "bytes": 8588
       },
       "rue-saveurs-256.webp": {
         "url": "/assets/pack-2/rue-saveurs-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 22786
+        "bytes": 23162
       }
     }
   },
@@ -973,13 +973,13 @@
         "url": "/assets/pack-2/rue-epices.webp",
         "width": 128,
         "height": 128,
-        "bytes": 9060
+        "bytes": 9526
       },
       "rue-epices-256.webp": {
         "url": "/assets/pack-2/rue-epices-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 23856
+        "bytes": 24808
       }
     }
   },
@@ -991,13 +991,13 @@
         "url": "/assets/pack-2/rue-festival.webp",
         "width": 128,
         "height": 128,
-        "bytes": 8604
+        "bytes": 8200
       },
       "rue-festival-256.webp": {
         "url": "/assets/pack-2/rue-festival-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 22504
+        "bytes": 20812
       }
     }
   },
@@ -1009,13 +1009,13 @@
         "url": "/assets/pack-2/rue-etoiles.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6818
+        "bytes": 7008
       },
       "rue-etoiles-256.webp": {
         "url": "/assets/pack-2/rue-etoiles-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 17828
+        "bytes": 18534
       }
     }
   },
@@ -1027,13 +1027,13 @@
         "url": "/assets/pack-2/rue-studios.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7228
+        "bytes": 7344
       },
       "rue-studios-256.webp": {
         "url": "/assets/pack-2/rue-studios-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 19580
+        "bytes": 19652
       }
     }
   },
@@ -1045,13 +1045,13 @@
         "url": "/assets/pack-2/rue-spectacles.webp",
         "width": 128,
         "height": 128,
-        "bytes": 6442
+        "bytes": 6510
       },
       "rue-spectacles-256.webp": {
         "url": "/assets/pack-2/rue-spectacles-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 15948
+        "bytes": 16104
       }
     }
   },
@@ -1063,13 +1063,13 @@
         "url": "/assets/pack-2/rue-serres.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7898
+        "bytes": 8236
       },
       "rue-serres-256.webp": {
         "url": "/assets/pack-2/rue-serres-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 22434
+        "bytes": 22904
       }
     }
   },
@@ -1081,13 +1081,211 @@
         "url": "/assets/pack-2/rue-soleil.webp",
         "width": 128,
         "height": 128,
-        "bytes": 7750
+        "bytes": 7852
       },
       "rue-soleil-256.webp": {
         "url": "/assets/pack-2/rue-soleil-256.webp",
         "width": 256,
         "height": 256,
-        "bytes": 20522
+        "bytes": 21210
+      }
+    }
+  },
+  {
+    "id": "rue-verrieres",
+    "priority": 3,
+    "files": {
+      "rue-verrieres.webp": {
+        "url": "/assets/pack-2/rue-verrieres.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8486
+      },
+      "rue-verrieres-256.webp": {
+        "url": "/assets/pack-2/rue-verrieres-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 24196
+      }
+    }
+  },
+  {
+    "id": "rue-horizons",
+    "priority": 3,
+    "files": {
+      "rue-horizons.webp": {
+        "url": "/assets/pack-2/rue-horizons.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7762
+      },
+      "rue-horizons-256.webp": {
+        "url": "/assets/pack-2/rue-horizons-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19520
+      }
+    }
+  },
+  {
+    "id": "rue-jardins",
+    "priority": 3,
+    "files": {
+      "rue-jardins.webp": {
+        "url": "/assets/pack-2/rue-jardins.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8154
+      },
+      "rue-jardins-256.webp": {
+        "url": "/assets/pack-2/rue-jardins-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21990
+      }
+    }
+  },
+  {
+    "id": "rue-phare",
+    "priority": 3,
+    "files": {
+      "rue-phare.webp": {
+        "url": "/assets/pack-2/rue-phare.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5860
+      },
+      "rue-phare-256.webp": {
+        "url": "/assets/pack-2/rue-phare-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15560
+      }
+    }
+  },
+  {
+    "id": "rue-nuages",
+    "priority": 3,
+    "files": {
+      "rue-nuages.webp": {
+        "url": "/assets/pack-2/rue-nuages.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6040
+      },
+      "rue-nuages-256.webp": {
+        "url": "/assets/pack-2/rue-nuages-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14424
+      }
+    }
+  },
+  {
+    "id": "rue-aurores",
+    "priority": 3,
+    "files": {
+      "rue-aurores.webp": {
+        "url": "/assets/pack-2/rue-aurores.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5306
+      },
+      "rue-aurores-256.webp": {
+        "url": "/assets/pack-2/rue-aurores-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13606
+      }
+    }
+  },
+  {
+    "id": "navette-nord",
+    "priority": 3,
+    "files": {
+      "navette-nord.webp": {
+        "url": "/assets/pack-2/navette-nord.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8718
+      },
+      "navette-nord-256.webp": {
+        "url": "/assets/pack-2/navette-nord-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21468
+      }
+    }
+  },
+  {
+    "id": "navette-est",
+    "priority": 3,
+    "files": {
+      "navette-est.webp": {
+        "url": "/assets/pack-2/navette-est.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8634
+      },
+      "navette-est-256.webp": {
+        "url": "/assets/pack-2/navette-est-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 20816
+      }
+    }
+  },
+  {
+    "id": "navette-sud",
+    "priority": 3,
+    "files": {
+      "navette-sud.webp": {
+        "url": "/assets/pack-2/navette-sud.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7448
+      },
+      "navette-sud-256.webp": {
+        "url": "/assets/pack-2/navette-sud-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17960
+      }
+    }
+  },
+  {
+    "id": "navette-ouest",
+    "priority": 3,
+    "files": {
+      "navette-ouest.webp": {
+        "url": "/assets/pack-2/navette-ouest.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7058
+      },
+      "navette-ouest-256.webp": {
+        "url": "/assets/pack-2/navette-ouest-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17538
+      }
+    }
+  },
+  {
+    "id": "taxe-patrimoine",
+    "priority": 3,
+    "files": {
+      "taxe-patrimoine.webp": {
+        "url": "/assets/pack-2/taxe-patrimoine.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6072
+      },
+      "taxe-patrimoine-256.webp": {
+        "url": "/assets/pack-2/taxe-patrimoine-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14878
       }
     }
   }

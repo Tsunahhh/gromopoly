@@ -17,8 +17,8 @@ for(const [index,item] of specs.entries()) {
     if(data.info.width!==file.width||data.info.height!==file.height) throw Error(`Export size: ${file.url}`);
     let transparent=0, opaque=0;
     for(let p=3;p<data.data.length;p+=4){if(data.data[p]===0)transparent++;if(data.data[p]===255)opaque++;}
-    if(item.background&&(!transparent||!opaque))throw Error(`Invalid alpha: ${file.url}`);
-    if(!item.background&&transparent)throw Error(`Opaque asset has transparency: ${file.url}`);
+    if(!entry.opaque&&(!transparent||!opaque))throw Error(`Invalid alpha: ${file.url}`);
+    if(entry.opaque&&transparent)throw Error(`Opaque asset has transparency: ${file.url}`);
   }
   const preview=entry.files.detail||Object.values(entry.files)[0];
   const input=await readFile(new URL('public'+preview.url,root));

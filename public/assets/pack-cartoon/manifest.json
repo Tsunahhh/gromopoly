@@ -366,5 +366,1676 @@
         "bytes": 19692
       }
     }
+  },
+  {
+    "id": "ui-livre-regles",
+    "title": "ui-livre-regles",
+    "category": "ui",
+    "subject": "a big open cream book with a coral cover, a mint bookmark sticking out, small golden stars above it",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-livre-regles.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-livre-regles.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3788
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-livre-regles-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13524
+      }
+    }
+  },
+  {
+    "id": "ui-animations-on",
+    "title": "ui-animations-on",
+    "category": "ui",
+    "subject": "three chubby golden sparkles of different sizes with a small lavender swirl",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-animations-on.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-animations-on.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4670
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-animations-on-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15760
+      }
+    }
+  },
+  {
+    "id": "ui-animations-off",
+    "title": "ui-animations-off",
+    "category": "ui",
+    "subject": "one sleepy golden sparkle with closed eyes and a lavender nightcap, resting on a cream crescent moon",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-animations-off.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-animations-off.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4144
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-animations-off-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13500
+      }
+    }
+  },
+  {
+    "id": "ui-journal-gazette",
+    "title": "ui-journal-gazette",
+    "category": "ui",
+    "subject": "a folded cream newspaper with columns of plain lines instead of letters, a tiny house drawing on the front page, one dog-eared corner",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-journal-gazette.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-journal-gazette.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3556
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-journal-gazette-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13616
+      }
+    }
+  },
+  {
+    "id": "ui-options-boite-outils",
+    "title": "ui-options-boite-outils",
+    "category": "ui",
+    "subject": "a small half-open mint toolbox with a coral screwdriver and a golden wrench sticking out",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-options-boite-outils.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-options-boite-outils.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3844
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-options-boite-outils-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13802
+      }
+    }
+  },
+  {
+    "id": "ui-porte-sortie",
+    "title": "ui-porte-sortie",
+    "category": "ui",
+    "subject": "a rounded lavender front door slightly open, a small coral doormat, a curved golden arrow pointing outside",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-porte-sortie.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-porte-sortie.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3336
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-porte-sortie-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 11046
+      }
+    }
+  },
+  {
+    "id": "ui-sablier",
+    "title": "ui-sablier",
+    "category": "ui",
+    "subject": "a chubby hourglass with a coral frame and flowing golden sand, two comic sweat drops",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-sablier.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-sablier.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3956
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-sablier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13514
+      }
+    }
+  },
+  {
+    "id": "ui-invitation-billet",
+    "title": "ui-invitation-billet",
+    "category": "ui",
+    "subject": "a cream invitation ticket with scalloped edges, a small mint house printed on it and a coral ribbon",
+    "size": 96,
+    "source": "assets/source/pack-2/transparent/ui-invitation-billet.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-invitation-billet.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3404
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-invitation-billet-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12430
+      }
+    }
+  },
+  {
+    "id": "ui-place-libre",
+    "title": "ui-place-libre",
+    "category": "ui",
+    "subject": "an empty round board-game pawn silhouette drawn with lavender dashed outline, a small golden plus shape floating next to it",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/ui-place-libre.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-place-libre.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5776
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-place-libre-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12978
+      }
+    }
+  },
+  {
+    "id": "ui-connexion-perdue",
+    "title": "ui-connexion-perdue",
+    "category": "ui",
+    "subject": "two cream cable plugs facing each other unplugged, a tiny spark between them, embarrassed cute faces",
+    "size": 160,
+    "source": "assets/source/pack-2/transparent/ui-connexion-perdue.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-connexion-perdue.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 6890
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-connexion-perdue-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12018
+      }
+    }
+  },
+  {
+    "id": "ui-trone-libre",
+    "title": "ui-trone-libre",
+    "category": "ui",
+    "subject": "a small empty coral velvet throne with golden legs, a mint cushion and a crown lying crooked on the seat",
+    "size": 160,
+    "source": "assets/source/pack-2/transparent/ui-trone-libre.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/ui-trone-libre.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 5946
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/ui-trone-libre-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 10974
+      }
+    }
+  },
+  {
+    "id": "app-icone",
+    "title": "app-icone",
+    "category": "app",
+    "subject": "a tilted cream six-sided die showing five pips with a tiny coral-roofed house on its top face, on a full-bleed flat lavender #aa83cf background, everything inside the central 80% circle",
+    "size": 512,
+    "source": "assets/source/pack-2/app-icone.png",
+    "opaque": false,
+    "icon": true,
+    "files": {
+      "512-png": {
+        "url": "/assets/pack-cartoon/app-icone-512.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 296214
+      },
+      "512-webp": {
+        "url": "/assets/pack-cartoon/app-icone-512.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 26022
+      },
+      "192-png": {
+        "url": "/assets/pack-cartoon/app-icone-192.png",
+        "width": 192,
+        "height": 192,
+        "bytes": 47733
+      },
+      "192-webp": {
+        "url": "/assets/pack-cartoon/app-icone-192.webp",
+        "width": 192,
+        "height": 192,
+        "bytes": 8148
+      },
+      "180-png": {
+        "url": "/assets/pack-cartoon/app-icone-180.png",
+        "width": 180,
+        "height": 180,
+        "bytes": 42356
+      },
+      "180-webp": {
+        "url": "/assets/pack-cartoon/app-icone-180.webp",
+        "width": 180,
+        "height": 180,
+        "bytes": 7556
+      },
+      "32-png": {
+        "url": "/assets/pack-cartoon/app-icone-32.png",
+        "width": 32,
+        "height": 32,
+        "bytes": 2177
+      },
+      "32-webp": {
+        "url": "/assets/pack-cartoon/app-icone-32.webp",
+        "width": 32,
+        "height": 32,
+        "bytes": 1096
+      }
+    }
+  },
+  {
+    "id": "og-partage",
+    "title": "og-partage",
+    "category": "og",
+    "subject": "landscape scene of a pastel French miniature town seen from above on the right 60% of the image, two giant cream dice and three animal pawns (frog, fox, panda) in the streets; the left 40% is a calm nearly empty peach sky left free for a title",
+    "size": 1200,
+    "source": "assets/source/pack-2/og-partage.png",
+    "opaque": true,
+    "landscape": true,
+    "files": {
+      "1200-png": {
+        "url": "/assets/pack-cartoon/og-partage.png",
+        "width": 1200,
+        "height": 630,
+        "bytes": 1675698
+      },
+      "1200-webp": {
+        "url": "/assets/pack-cartoon/og-partage.webp",
+        "width": 1200,
+        "height": 630,
+        "bytes": 117188
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-prime-creative",
+    "title": "carte-theatre-prime-creative",
+    "category": "carte",
+    "subject": "a golden painter palette with three coins bursting out of it and a coral paintbrush in the air",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-prime-creative.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-prime-creative.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6474
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-prime-creative-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16038
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-achat-impulsif",
+    "title": "carte-theatre-achat-impulsif",
+    "category": "carte",
+    "subject": "a coral shopping bag overflowing with silly items (rubber duck, feathered hat), one coin running away",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-achat-impulsif.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-achat-impulsif.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6452
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-achat-impulsif-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17506
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-travaux-facade",
+    "title": "carte-theatre-travaux-facade",
+    "category": "carte",
+    "subject": "a small house facade under scaffolding, a tipped-over paint pot and a mint paint roller",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-travaux-facade.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-travaux-facade.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5886
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-travaux-facade-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15688
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-avance-navette",
+    "title": "carte-theatre-avance-navette",
+    "category": "carte",
+    "subject": "a small mint tram speeding with motion lines, a frog pawn hanging on to the back",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-avance-navette.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-avance-navette.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6004
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-avance-navette-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15982
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-reculer",
+    "title": "carte-theatre-reculer",
+    "category": "carte",
+    "subject": "a surprised fox pawn walking backwards over two small paving tiles, a curved lavender arrow pointing back",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-reculer.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-reculer.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5670
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-reculer-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13958
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-defi-artistique",
+    "title": "carte-theatre-defi-artistique",
+    "category": "carte",
+    "subject": "an easel with an abstract colorful painting and a golden prize ribbon pinned to it",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-defi-artistique.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-defi-artistique.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4458
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-defi-artistique-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 11092
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-route-depart",
+    "title": "carte-theatre-route-depart",
+    "category": "carte",
+    "subject": "a coral rocket taking off from a small roundabout with a puff of cream smoke",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-route-depart.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-route-depart.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4974
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-route-depart-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12482
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-visite-commissariat",
+    "title": "carte-theatre-visite-commissariat",
+    "category": "carte",
+    "subject": "a golden police whistle and a blue police cap resting on fluffy lavender toy handcuffs",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-visite-commissariat.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-visite-commissariat.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5572
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-visite-commissariat-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14310
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-bourse-creative",
+    "title": "carte-theatre-bourse-creative",
+    "category": "carte",
+    "subject": "a coral cloth purse tied with a ribbon, a smiling theater mask sewn on it, coins spilling out",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-bourse-creative.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-bourse-creative.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6044
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-bourse-creative-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15648
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-cotisation-quartier",
+    "title": "carte-theatre-cotisation-quartier",
+    "category": "carte",
+    "subject": "a glass donation jar with a slotted lid, a cartoon hand dropping coins into it",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-cotisation-quartier.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-cotisation-quartier.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4960
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-cotisation-quartier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13072
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-voisins-merci",
+    "title": "carte-theatre-voisins-merci",
+    "category": "carte",
+    "subject": "three small smiling houses each holding out a coin, little coral hearts around them",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-voisins-merci.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-voisins-merci.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5780
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-voisins-merci-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15728
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-tour-aurores",
+    "title": "carte-theatre-tour-aurores",
+    "category": "carte",
+    "subject": "a slender sapphire tower with a mint and lavender aurora ribbon at the top, a tiny pawn looking up",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-theatre-tour-aurores.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-theatre-tour-aurores.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 3808
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-theatre-tour-aurores-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 9198
+      }
+    }
+  },
+  {
+    "id": "carte-ville-bourse-municipale",
+    "title": "carte-ville-bourse-municipale",
+    "category": "carte",
+    "subject": "a small lavender town hall with a flag, a cream envelope full of coins coming out of the door",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-bourse-municipale.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-bourse-municipale.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5216
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-bourse-municipale-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12992
+      }
+    }
+  },
+  {
+    "id": "carte-ville-stationnement",
+    "title": "carte-ville-stationnement",
+    "category": "carte",
+    "subject": "a small mint car badly parked on a sidewalk with a blank cream parking ticket on the windshield",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-stationnement.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-stationnement.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5332
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-stationnement-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13626
+      }
+    }
+  },
+  {
+    "id": "carte-ville-remboursement",
+    "title": "carte-ville-remboursement",
+    "category": "carte",
+    "subject": "an open lavender envelope with two coins and a curved golden return arrow",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-remboursement.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-remboursement.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5158
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-remboursement-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12654
+      }
+    }
+  },
+  {
+    "id": "carte-ville-cotisation-municipale",
+    "title": "carte-ville-cotisation-municipale",
+    "category": "carte",
+    "subject": "a greedy coral municipal mailbox swallowing coins",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-cotisation-municipale.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-cotisation-municipale.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5358
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-cotisation-municipale-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13894
+      }
+    }
+  },
+  {
+    "id": "carte-ville-concours-quartier",
+    "title": "carte-ville-concours-quartier",
+    "category": "carte",
+    "subject": "a giant prize-winning pumpkin with a golden rosette ribbon",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-concours-quartier.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-concours-quartier.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5876
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-concours-quartier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15286
+      }
+    }
+  },
+  {
+    "id": "carte-ville-avance-depart",
+    "title": "carte-ville-avance-depart",
+    "category": "carte",
+    "subject": "a round mint road sign with an arrow pointing to a tiny rocket, no text",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-avance-depart.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-avance-depart.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4380
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-avance-depart-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 10310
+      }
+    }
+  },
+  {
+    "id": "carte-ville-commissariat",
+    "title": "carte-ville-commissariat",
+    "category": "carte",
+    "subject": "a small blue cell door with bars and a sulking panda pawn behind it",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-commissariat.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-commissariat.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5626
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-commissariat-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14262
+      }
+    }
+  },
+  {
+    "id": "carte-ville-liberation",
+    "title": "carte-ville-liberation",
+    "category": "carte",
+    "subject": "a giant golden key opening a heart-shaped padlock with sparkles",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-liberation.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-liberation.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6204
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-liberation-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15652
+      }
+    }
+  },
+  {
+    "id": "carte-ville-coup-de-pouce",
+    "title": "carte-ville-coup-de-pouce",
+    "category": "carte",
+    "subject": "a cartoon hand offering a coin to three small hands, a little bunting garland behind",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-coup-de-pouce.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-coup-de-pouce.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6994
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-coup-de-pouce-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16988
+      }
+    }
+  },
+  {
+    "id": "carte-ville-participation",
+    "title": "carte-ville-participation",
+    "category": "carte",
+    "subject": "a cream ballot box with folded blank ballots and a lavender and mint rosette",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-participation.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-participation.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4892
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-participation-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 11778
+      }
+    }
+  },
+  {
+    "id": "carte-ville-prime-voisinage",
+    "title": "carte-ville-prime-voisinage",
+    "category": "carte",
+    "subject": "a steaming pie resting on a stack of coins, two small smiling neighbor windows behind it",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-prime-voisinage.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-prime-voisinage.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7118
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-prime-voisinage-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19662
+      }
+    }
+  },
+  {
+    "id": "carte-ville-travaux-municipaux",
+    "title": "carte-ville-travaux-municipaux",
+    "category": "carte",
+    "subject": "a coral traffic cone, a mint shovel and a striped barrier in front of a hole in the cobblestones",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/carte-ville-travaux-municipaux.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/carte-ville-travaux-municipaux.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6004
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/carte-ville-travaux-municipaux-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15568
+      }
+    }
+  },
+  {
+    "id": "recompense-medaille-argent",
+    "title": "recompense-medaille-argent",
+    "category": "recompense",
+    "subject": "a chubby silver medal with a lavender ribbon and an embossed star",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/recompense-medaille-argent.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/recompense-medaille-argent.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4076
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/recompense-medaille-argent-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 9354
+      }
+    }
+  },
+  {
+    "id": "recompense-medaille-bronze",
+    "title": "recompense-medaille-bronze",
+    "category": "recompense",
+    "subject": "a chubby bronze medal with a mint ribbon and an embossed tiny house",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/recompense-medaille-bronze.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/recompense-medaille-bronze.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4226
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/recompense-medaille-bronze-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 10198
+      }
+    }
+  },
+  {
+    "id": "badge-batisseur",
+    "title": "badge-batisseur",
+    "category": "badge",
+    "subject": "a yellow hard hat resting on a trowel and a coral brick",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/badge-batisseur.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/badge-batisseur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5108
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/badge-batisseur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12240
+      }
+    }
+  },
+  {
+    "id": "badge-negociateur",
+    "title": "badge-negociateur",
+    "category": "badge",
+    "subject": "two property cards swapping places in a swirl with a golden star between them",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/badge-negociateur.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/badge-negociateur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6398
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/badge-negociateur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16708
+      }
+    }
+  },
+  {
+    "id": "badge-rentier",
+    "title": "badge-rentier",
+    "category": "badge",
+    "subject": "a mint deck chair with a stack of coins, sunglasses and a drink with a straw",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/badge-rentier.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/badge-rentier.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6844
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/badge-rentier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17144
+      }
+    }
+  },
+  {
+    "id": "badge-collectionneur",
+    "title": "badge-collectionneur",
+    "category": "badge",
+    "subject": "an open lavender album filled with small colorful house stickers",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/badge-collectionneur.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/badge-collectionneur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4892
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/badge-collectionneur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13418
+      }
+    }
+  },
+  {
+    "id": "badge-explorateur",
+    "title": "badge-explorateur",
+    "category": "badge",
+    "subject": "a golden compass on a folded treasure map with coral dotted path",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/badge-explorateur.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/badge-explorateur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5208
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/badge-explorateur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13570
+      }
+    }
+  },
+  {
+    "id": "rue-ateliers",
+    "title": "rue-ateliers",
+    "category": "rue",
+    "subject": "a small workshop with a copper roof (#bb7657), an anvil and a cog wheel by the door",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-ateliers.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-ateliers.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5190
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-ateliers-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14530
+      }
+    }
+  },
+  {
+    "id": "rue-artisans",
+    "title": "rue-artisans",
+    "category": "rue",
+    "subject": "a covered copper-toned (#bb7657) archway passage with a pottery stall and a wooden chair",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-artisans.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-artisans.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6018
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-artisans-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16742
+      }
+    }
+  },
+  {
+    "id": "rue-fresques",
+    "title": "rue-fresques",
+    "category": "rue",
+    "subject": "an azure (#54b8df) house wall covered with a colorful abstract mural, paint pots at its foot",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-fresques.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-fresques.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5210
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-fresques-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13092
+      }
+    }
+  },
+  {
+    "id": "rue-musiciens",
+    "title": "rue-musiciens",
+    "category": "rue",
+    "subject": "a round bandstand with an azure (#54b8df) roof, a trumpet and a violin resting on the railing",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-musiciens.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-musiciens.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6186
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-musiciens-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17212
+      }
+    }
+  },
+  {
+    "id": "rue-inventeurs",
+    "title": "rue-inventeurs",
+    "category": "rue",
+    "subject": "an azure (#54b8df) quayside workshop with a light-bulb weather vane and a small moored boat",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-inventeurs.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-inventeurs.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5626
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-inventeurs-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15448
+      }
+    }
+  },
+  {
+    "id": "rue-lanternes",
+    "title": "rue-lanternes",
+    "category": "rue",
+    "subject": "a lavender (#aa83cf) house with a string of glowing paper lanterns",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-lanternes.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-lanternes.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5282
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-lanternes-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13940
+      }
+    }
+  },
+  {
+    "id": "rue-livres",
+    "title": "rue-livres",
+    "category": "rue",
+    "subject": "an open-air lavender (#aa83cf) book kiosk under a small tree, piles of books without titles",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-livres.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-livres.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6488
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-livres-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17626
+      }
+    }
+  },
+  {
+    "id": "rue-cinemas",
+    "title": "rue-cinemas",
+    "category": "rue",
+    "subject": "a small lavender (#aa83cf) cinema facade with a marquee of light bulbs (no letters) and a popcorn cone",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-cinemas.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-cinemas.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5810
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-cinemas-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15080
+      }
+    }
+  },
+  {
+    "id": "rue-saveurs",
+    "title": "rue-saveurs",
+    "category": "rue",
+    "subject": "a bistro with a coral (#fa7c68) striped awning, a steaming pot and a small terrace table",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-saveurs.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-saveurs.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6302
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-saveurs-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17802
+      }
+    }
+  },
+  {
+    "id": "rue-epices",
+    "title": "rue-epices",
+    "category": "rue",
+    "subject": "a small coral-toned (#fa7c68) garden with open sacks of colorful spices and a giant chili pepper",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-epices.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-epices.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6686
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-epices-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18670
+      }
+    }
+  },
+  {
+    "id": "rue-festival",
+    "title": "rue-festival",
+    "category": "rue",
+    "subject": "a small open-air coral (#fa7c68) stage with bunting, balloons and a spotlight",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-festival.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-festival.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6390
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-festival-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16460
+      }
+    }
+  },
+  {
+    "id": "rue-etoiles",
+    "title": "rue-etoiles",
+    "category": "rue",
+    "subject": "a small observatory with a ruby (#dc5572) dome and a telescope pointing at a golden star",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-etoiles.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-etoiles.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5208
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-etoiles-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14160
+      }
+    }
+  },
+  {
+    "id": "rue-studios",
+    "title": "rue-studios",
+    "category": "rue",
+    "subject": "a ruby (#dc5572) film studio with a reel camera, a blank clapperboard and a spotlight",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-studios.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-studios.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5702
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-studios-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15582
+      }
+    }
+  },
+  {
+    "id": "rue-spectacles",
+    "title": "rue-spectacles",
+    "category": "rue",
+    "subject": "a ruby (#dc5572) and cream striped circus tent with a flag on top",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-spectacles.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-spectacles.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5288
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-spectacles-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13018
+      }
+    }
+  },
+  {
+    "id": "rue-serres",
+    "title": "rue-serres",
+    "category": "rue",
+    "subject": "a golden (#e3b94f) arched glass greenhouse full of green plants",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-serres.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-serres.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5930
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-serres-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17078
+      }
+    }
+  },
+  {
+    "id": "rue-soleil",
+    "title": "rue-soleil",
+    "category": "rue",
+    "subject": "a small plaza fountain topped by a smiling golden (#e3b94f) sun sculpture",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-soleil.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-soleil.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5910
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-soleil-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15860
+      }
+    }
+  },
+  {
+    "id": "rue-verrieres",
+    "title": "rue-verrieres",
+    "category": "rue",
+    "subject": "a covered gallery with a golden (#e3b94f) glass roof, street lamps and benches",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-verrieres.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-verrieres.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6126
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-verrieres-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17722
+      }
+    }
+  },
+  {
+    "id": "rue-horizons",
+    "title": "rue-horizons",
+    "category": "rue",
+    "subject": "an emerald (#54b889) harbor master house with a spyglass on the roof and a life buoy",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-horizons.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-horizons.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5682
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-horizons-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14782
+      }
+    }
+  },
+  {
+    "id": "rue-jardins",
+    "title": "rue-jardins",
+    "category": "rue",
+    "subject": "an emerald (#54b889) garden gazebo surrounded by round topiary hedges",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-jardins.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-jardins.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6092
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-jardins-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16646
+      }
+    }
+  },
+  {
+    "id": "rue-phare",
+    "title": "rue-phare",
+    "category": "rue",
+    "subject": "a small emerald (#54b889) and cream striped lighthouse with a café terrace at its base",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-phare.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-phare.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4366
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-phare-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 11852
+      }
+    }
+  },
+  {
+    "id": "rue-nuages",
+    "title": "rue-nuages",
+    "category": "rue",
+    "subject": "a sapphire (#607fe0) tower whose roof is a fluffy cloud, a small bridge to a second little cloud",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-nuages.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-nuages.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4836
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-nuages-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 11706
+      }
+    }
+  },
+  {
+    "id": "rue-aurores",
+    "title": "rue-aurores",
+    "category": "rue",
+    "subject": "the tallest sapphire (#607fe0) tower with a small crown and an aurora ribbon at the top, prestigious",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/rue-aurores.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/rue-aurores.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4158
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/rue-aurores-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 10676
+      }
+    }
+  },
+  {
+    "id": "navette-nord",
+    "title": "navette-nord",
+    "category": "navette",
+    "subject": "a mint tram with a snowy roof and a scarf on the driver",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/navette-nord.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/navette-nord.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6174
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/navette-nord-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16198
+      }
+    }
+  },
+  {
+    "id": "navette-est",
+    "title": "navette-est",
+    "category": "navette",
+    "subject": "a mint tram with an orange rising sun behind it",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/navette-est.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/navette-est.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6354
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/navette-est-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16034
+      }
+    }
+  },
+  {
+    "id": "navette-sud",
+    "title": "navette-sud",
+    "category": "navette",
+    "subject": "a mint tram decorated with a palm tree and wearing sunglasses",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/navette-sud.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/navette-sud.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5768
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/navette-sud-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14460
+      }
+    }
+  },
+  {
+    "id": "navette-ouest",
+    "title": "navette-ouest",
+    "category": "navette",
+    "subject": "a mint tram in front of a coral sunset over the sea",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/navette-ouest.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/navette-ouest.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5456
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/navette-ouest-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14064
+      }
+    }
+  },
+  {
+    "id": "taxe-patrimoine",
+    "title": "taxe-patrimoine",
+    "category": "taxe",
+    "subject": "a small golden safe with a cream receipt coming out and a lavender magnifying glass resting on it",
+    "size": 128,
+    "source": "assets/source/pack-2/transparent/taxe-patrimoine.png",
+    "opaque": false,
+    "files": {
+      "jeu": {
+        "url": "/assets/pack-cartoon/taxe-patrimoine.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4948
+      },
+      "detail": {
+        "url": "/assets/pack-cartoon/taxe-patrimoine-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12316
+      }
+    }
   }
 ]

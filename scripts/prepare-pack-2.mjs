@@ -6,6 +6,12 @@ const sharp = createRequire(import.meta.url)(process.argv[2] || 'sharp');
 const root = new URL('../', import.meta.url);
 const brief = await readFile(new URL('assets/ILLUSTRATIONS_A_GENERER.md', root), 'utf8');
 const specs = JSON.parse(brief.match(/```json\s*([\s\S]*?)```/)[1]);
+async function save(path,data) {
+  for(let attempt=0;;attempt++) {
+    try { await writeFile(path,data); return; }
+    catch(error) {if(attempt===5)throw error;await new Promise(resolve=>setTimeout(resolve,300));}
+  }
+}
 const configPath = new URL('assets/pack-cartoon.json', root);
 const config = JSON.parse(await readFile(configPath, 'utf8'));
 await mkdir(new URL('assets/source/pack-2/transparent/', root), { recursive: true });
@@ -36,16 +42,16 @@ for (const item of specs) {
     output = await sharp(cutout).resize(716,716,{fit:'contain',background:'#00000000'})
       .extend({top:154,bottom:154,left:154,right:154,background:'#00000000'}).png().toBuffer();
     await writeFile(new URL(`assets/source/pack-2/transparent/${item.id}.png`, root), output);
-    // The brief asks for a chroma-key source as well as a transparent derivative.
-    // Unmodified imagegen originals remain in Codex's generated_images directory.
-    await writeFile(source, await sharp(output).flatten({background:item.background}).png().toBuffer());
+    // User requested removal of pink/purple backgrounds from the source files too.
+    await save(source, output);
   } else {
-    output = await sharp(original).resize(...item.size,{fit:'cover'}).flatten({background:'#aa83cf'}).png().toBuffer();
-    await writeFile(source, output);
+    const image=sharp(original).resize(...item.size,{fit:'contain',background:'#00000000'});
+    output = await (item.id==='og-partage'?image.flatten({background:'#fff4df'}):image).png().toBuffer();
+    await save(source, output);
   }
   const entry = { id:item.id, title:item.id, category:item.id.split('-')[0], subject:item.subject,
     size:item.export, source:`assets/source/pack-2/${item.background ? 'transparent/' : ''}${item.id}.png`,
-    opaque:!item.background, ...(item.id==='app-icone'?{icon:true}:{}), ...(item.id==='og-partage'?{landscape:true}:{}) };
+    opaque:item.id==='og-partage', ...(item.id==='app-icone'?{icon:true}:{}), ...(item.id==='og-partage'?{landscape:true}:{}) };
   const index=config.findIndex(x=>x.id===item.id);
   if(index<0) config.push(entry); else config[index]=entry;
 }

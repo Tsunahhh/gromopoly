@@ -20,7 +20,8 @@ for (const item of config) {
         const name = `${item.id}${item.icon ? '-'+size : ''}.${format}`;
         const path = fileURLToPath(new URL(name, target));
         const height = item.landscape ? 630 : size;
-        await sharp(source).resize(size,height).flatten({background:'#aa83cf'}).toFormat(format).toFile(path);
+        const image=sharp(source).resize(size,height);
+        await (item.opaque?image.flatten({background:'#fff4df'}):image).toFormat(format).toFile(path);
         files[`${size}-${format}`] = {url:`/assets/pack-cartoon/${name}`,width:size,height,bytes:(await stat(path)).size};
       }
     }

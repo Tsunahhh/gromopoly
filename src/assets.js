@@ -23,7 +23,7 @@ export const pack = {
   keys:'pack:objet-cles-propriete', hammer:'pack:objet-marteau-encheres', wallet:'pack:objet-portefeuille-billets', shield:'pack:objet-bouclier-loyer',
   coinRain:'pack:evenement-pluie-pieces', repairs:'pack:evenement-reparations-maison', party:'pack:evenement-fete-quartier', broke:'pack:evenement-faillite-tirelire',
   crown:'pack:recompense-couronne-vainqueur', medal:'pack:recompense-medaille-collection',
-  house:'pack:batiment-maison-potager', apartments:'pack:batiment-immeuble-balcons', station:'pack:batiment-gare-train', bank:'pack:batiment-banque-coffre', prison:'pack:batiment-prison-evasion'
+  house:'pack:batiment-maison-potager', apartments:'pack:batiment-immeuble-balcons', hotel:'pack:batiment-hotel-piscine', station:'pack:batiment-gare-train', bank:'pack:batiment-banque-coffre', prison:'pack:batiment-prison-evasion'
 };
 export const buildingAssets = { Cuivre:'copper-cottage', Azur:'blue-townhouse', Lavande:'lavender-bookshop', Corail:'coral-bakery', Rubis:'ruby-theater', Or:'gold-apartments', Émeraude:'emerald-greenhouse', Saphir:'sapphire-tower', Transport:'tram' };
 const emojiAssets = {

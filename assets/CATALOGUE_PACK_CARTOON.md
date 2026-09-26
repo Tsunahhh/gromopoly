@@ -74,7 +74,7 @@ Les alias sont définis dans `src/assets.js` (objet `pack`, préfixe `pack:` pou
 | `recompense-couronne-vainqueur` | Joueur en tête pendant la partie, n° 1 des classements, écran de victoire, objectif du salon |
 | `recompense-medaille-collection` | Encadré « Un quartier, ça se complète », quartiers complets |
 
-L'hôtel (`batiment-hotel-piscine`) reste disponible pour une future construction de prestige : le jeu n'a pas de niveau au-delà de l'immeuble.
+| `batiment-hotel-piscine` | Célébration quand un joueur termine un immeuble (animation sur la case) |
 
 ## Animation conseillée
 

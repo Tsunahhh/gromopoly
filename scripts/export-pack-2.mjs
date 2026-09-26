@@ -31,12 +31,16 @@ async function keyed(file, background) {
   return sharp(data, { raw: info }).png().toBuffer();
 }
 
-async function transparentSource(file, background) {
+async function isTransparent(file) {
   const { data, info } = await sharp(file).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
   let clear = 0;
   for (let i = 3; i < data.length; i += 4) if (data[i] < 10) clear++;
-  // Déjà détourée par le générateur : on la garde telle quelle.
-  if (clear / (info.width * info.height) > .05) return sharp(file).png().toBuffer();
+  return clear / (info.width * info.height) > .05;
+}
+
+async function transparentSource(file, background) {
+  // Déjà détourée : on la garde telle quelle.
+  if (await isTransparent(file)) return sharp(file).png().toBuffer();
   return keyed(file, background || '#FF00FF');
 }
 
@@ -82,7 +86,7 @@ for (const item of specs) {
   };
   if (item.id === 'app-icone') {
     // Le fond uni de l'icône est retiré : favicon transparent, icônes d'écran d'accueil sur fond crème.
-    const cutout = await removeFlatBackground(file);
+    const cutout = await isTransparent(file) ? await sharp(file).png().toBuffer() : await removeFlatBackground(file);
     for (const size of [32, 64]) await save(`favicon-${size}.png`, await square(cutout, size, .96), 'png');
     for (const size of [512, 192, 180]) await save(`app-icone-${size}.png`, (await square(cutout, size, .78)).flatten({ background: '#fff4df' }), 'png');
   } else if (item.id === 'og-partage') {

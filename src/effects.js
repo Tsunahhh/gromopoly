@@ -73,7 +73,7 @@ function settleEffects(before, after) {
     const el = tiles[index], owner = after.players.find(p => p.id === tile.owner);
     let icon = null;
     if (tile.owner && tile.owner !== old.owner) icon = pack.keys;
-    else if (tile.level > old.level) icon = tile.level === 4 ? pack.apartments : pack.house;
+    else if (tile.level > old.level) icon = tile.level === 4 ? pack.hotel : pack.house; // immeuble terminé : construction de prestige
     else if (tile.mortgage && !old.mortgage) icon = 'mortgage';
     else if (tile.owner !== old.owner || tile.level !== old.level || tile.mortgage !== old.mortgage) icon = '';
     if (icon === null) return;
