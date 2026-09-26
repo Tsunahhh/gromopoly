@@ -9,10 +9,24 @@ const target = new URL('public/assets/pack-cartoon/', root);
 await mkdir(target, { recursive: true });
 const manifest = [];
 for (const item of config) {
-  const source = fileURLToPath(new URL(`assets/source/pack-cartoon/${item.id}.png`, root));
+  const source = fileURLToPath(new URL(item.source || `assets/source/pack-cartoon/${item.id}.png`, root));
   const meta = await sharp(source).metadata();
-  if (!meta.hasAlpha) throw new Error(`Missing alpha: ${item.id}`);
+  if (!item.opaque && !meta.hasAlpha) throw new Error(`Missing alpha: ${item.id}`);
   const files = {};
+  if (item.icon || item.landscape) {
+    const sizes = item.icon ? [512,192,180,32] : [1200];
+    for (const size of sizes) {
+      for (const format of ['png','webp']) {
+        const name = `${item.id}${item.icon ? '-'+size : ''}.${format}`;
+        const path = fileURLToPath(new URL(name, target));
+        const height = item.landscape ? 630 : size;
+        await sharp(source).resize(size,height).flatten({background:'#aa83cf'}).toFormat(format).toFile(path);
+        files[`${size}-${format}`] = {url:`/assets/pack-cartoon/${name}`,width:size,height,bytes:(await stat(path)).size};
+      }
+    }
+    manifest.push({...item,files});
+    continue;
+  }
   for (const [variant, size] of [['jeu', item.size], ['detail', 256]]) {
     const name = `${item.id}${variant === 'detail' ? '-256' : ''}.webp`;
     const path = fileURLToPath(new URL(name, target));
@@ -26,4 +40,4 @@ for (const item of config) {
   manifest.push({ ...item, files });
 }
 await writeFile(new URL('manifest.json', target), JSON.stringify(manifest, null, 2) + '\n');
-console.log(JSON.stringify({ illustrations: manifest.length, exports: manifest.length * 2, bytes: manifest.reduce((sum, item) => sum + item.files.jeu.bytes + item.files.detail.bytes, 0) }));
+console.log(JSON.stringify({ illustrations: manifest.length, exports: manifest.reduce((n,item)=>n+Object.keys(item.files).length,0), bytes: manifest.reduce((sum, item) => sum + Object.values(item.files).reduce((n,f)=>n+f.bytes,0), 0) }));

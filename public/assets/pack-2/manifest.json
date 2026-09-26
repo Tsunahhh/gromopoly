@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "ui-livre-regles",
+    "priority": 1,
+    "files": {
+      "ui-livre-regles.webp": {
+        "url": "/assets/pack-2/ui-livre-regles.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4524
+      },
+      "ui-livre-regles-256.webp": {
+        "url": "/assets/pack-2/ui-livre-regles-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16210
+      }
+    }
+  },
+  {
+    "id": "ui-animations-on",
+    "priority": 1,
+    "files": {
+      "ui-animations-on.webp": {
+        "url": "/assets/pack-2/ui-animations-on.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 5688
+      },
+      "ui-animations-on-256.webp": {
+        "url": "/assets/pack-2/ui-animations-on-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18396
+      }
+    }
+  },
+  {
+    "id": "ui-animations-off",
+    "priority": 1,
+    "files": {
+      "ui-animations-off.webp": {
+        "url": "/assets/pack-2/ui-animations-off.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4420
+      },
+      "ui-animations-off-256.webp": {
+        "url": "/assets/pack-2/ui-animations-off-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15038
+      }
+    }
+  },
+  {
+    "id": "ui-journal-gazette",
+    "priority": 1,
+    "files": {
+      "ui-journal-gazette.webp": {
+        "url": "/assets/pack-2/ui-journal-gazette.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4426
+      },
+      "ui-journal-gazette-256.webp": {
+        "url": "/assets/pack-2/ui-journal-gazette-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17188
+      }
+    }
+  },
+  {
+    "id": "ui-options-boite-outils",
+    "priority": 1,
+    "files": {
+      "ui-options-boite-outils.webp": {
+        "url": "/assets/pack-2/ui-options-boite-outils.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4606
+      },
+      "ui-options-boite-outils-256.webp": {
+        "url": "/assets/pack-2/ui-options-boite-outils-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16396
+      }
+    }
+  },
+  {
+    "id": "ui-porte-sortie",
+    "priority": 1,
+    "files": {
+      "ui-porte-sortie.webp": {
+        "url": "/assets/pack-2/ui-porte-sortie.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3630
+      },
+      "ui-porte-sortie-256.webp": {
+        "url": "/assets/pack-2/ui-porte-sortie-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12828
+      }
+    }
+  },
+  {
+    "id": "ui-sablier",
+    "priority": 1,
+    "files": {
+      "ui-sablier.webp": {
+        "url": "/assets/pack-2/ui-sablier.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4390
+      },
+      "ui-sablier-256.webp": {
+        "url": "/assets/pack-2/ui-sablier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15612
+      }
+    }
+  },
+  {
+    "id": "ui-invitation-billet",
+    "priority": 1,
+    "files": {
+      "ui-invitation-billet.webp": {
+        "url": "/assets/pack-2/ui-invitation-billet.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 4102
+      },
+      "ui-invitation-billet-256.webp": {
+        "url": "/assets/pack-2/ui-invitation-billet-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15066
+      }
+    }
+  },
+  {
+    "id": "ui-place-libre",
+    "priority": 1,
+    "files": {
+      "ui-place-libre.webp": {
+        "url": "/assets/pack-2/ui-place-libre.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6764
+      },
+      "ui-place-libre-256.webp": {
+        "url": "/assets/pack-2/ui-place-libre-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15352
+      }
+    }
+  },
+  {
+    "id": "ui-connexion-perdue",
+    "priority": 1,
+    "files": {
+      "ui-connexion-perdue.webp": {
+        "url": "/assets/pack-2/ui-connexion-perdue.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 8020
+      },
+      "ui-connexion-perdue-256.webp": {
+        "url": "/assets/pack-2/ui-connexion-perdue-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14612
+      }
+    }
+  },
+  {
+    "id": "ui-trone-libre",
+    "priority": 1,
+    "files": {
+      "ui-trone-libre.webp": {
+        "url": "/assets/pack-2/ui-trone-libre.webp",
+        "width": 160,
+        "height": 160,
+        "bytes": 7296
+      },
+      "ui-trone-libre-256.webp": {
+        "url": "/assets/pack-2/ui-trone-libre-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13702
+      }
+    }
+  },
+  {
+    "id": "app-icone",
+    "priority": 1,
+    "files": {
+      "app-icone-512.png": {
+        "url": "/assets/pack-2/app-icone-512.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 128552
+      },
+      "app-icone-192.png": {
+        "url": "/assets/pack-2/app-icone-192.png",
+        "width": 192,
+        "height": 192,
+        "bytes": 23235
+      },
+      "app-icone-180.png": {
+        "url": "/assets/pack-2/app-icone-180.png",
+        "width": 180,
+        "height": 180,
+        "bytes": 20027
+      },
+      "favicon-32.png": {
+        "url": "/assets/pack-2/favicon-32.png",
+        "width": 32,
+        "height": 32,
+        "bytes": 1436
+      }
+    }
+  },
+  {
+    "id": "og-partage",
+    "priority": 1,
+    "files": {
+      "og-partage.jpg": {
+        "url": "/assets/pack-2/og-partage.jpg",
+        "width": 1200,
+        "height": 630,
+        "bytes": 189024
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-prime-creative",
+    "priority": 2,
+    "files": {
+      "carte-theatre-prime-creative.webp": {
+        "url": "/assets/pack-2/carte-theatre-prime-creative.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8502
+      },
+      "carte-theatre-prime-creative-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-prime-creative-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21006
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-achat-impulsif",
+    "priority": 2,
+    "files": {
+      "carte-theatre-achat-impulsif.webp": {
+        "url": "/assets/pack-2/carte-theatre-achat-impulsif.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8216
+      },
+      "carte-theatre-achat-impulsif-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-achat-impulsif-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21166
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-travaux-facade",
+    "priority": 2,
+    "files": {
+      "carte-theatre-travaux-facade.webp": {
+        "url": "/assets/pack-2/carte-theatre-travaux-facade.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7018
+      },
+      "carte-theatre-travaux-facade-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-travaux-facade-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18738
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-avance-navette",
+    "priority": 2,
+    "files": {
+      "carte-theatre-avance-navette.webp": {
+        "url": "/assets/pack-2/carte-theatre-avance-navette.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7440
+      },
+      "carte-theatre-avance-navette-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-avance-navette-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19558
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-reculer",
+    "priority": 2,
+    "files": {
+      "carte-theatre-reculer.webp": {
+        "url": "/assets/pack-2/carte-theatre-reculer.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6852
+      },
+      "carte-theatre-reculer-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-reculer-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16790
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-defi-artistique",
+    "priority": 2,
+    "files": {
+      "carte-theatre-defi-artistique.webp": {
+        "url": "/assets/pack-2/carte-theatre-defi-artistique.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5430
+      },
+      "carte-theatre-defi-artistique-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-defi-artistique-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13160
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-route-depart",
+    "priority": 2,
+    "files": {
+      "carte-theatre-route-depart.webp": {
+        "url": "/assets/pack-2/carte-theatre-route-depart.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6166
+      },
+      "carte-theatre-route-depart-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-route-depart-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15430
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-visite-commissariat",
+    "priority": 2,
+    "files": {
+      "carte-theatre-visite-commissariat.webp": {
+        "url": "/assets/pack-2/carte-theatre-visite-commissariat.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6832
+      },
+      "carte-theatre-visite-commissariat-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-visite-commissariat-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17236
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-bourse-creative",
+    "priority": 2,
+    "files": {
+      "carte-theatre-bourse-creative.webp": {
+        "url": "/assets/pack-2/carte-theatre-bourse-creative.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7744
+      },
+      "carte-theatre-bourse-creative-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-bourse-creative-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19238
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-cotisation-quartier",
+    "priority": 2,
+    "files": {
+      "carte-theatre-cotisation-quartier.webp": {
+        "url": "/assets/pack-2/carte-theatre-cotisation-quartier.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6074
+      },
+      "carte-theatre-cotisation-quartier-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-cotisation-quartier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15608
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-voisins-merci",
+    "priority": 2,
+    "files": {
+      "carte-theatre-voisins-merci.webp": {
+        "url": "/assets/pack-2/carte-theatre-voisins-merci.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7060
+      },
+      "carte-theatre-voisins-merci-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-voisins-merci-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19016
+      }
+    }
+  },
+  {
+    "id": "carte-theatre-tour-aurores",
+    "priority": 2,
+    "files": {
+      "carte-theatre-tour-aurores.webp": {
+        "url": "/assets/pack-2/carte-theatre-tour-aurores.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 4548
+      },
+      "carte-theatre-tour-aurores-256.webp": {
+        "url": "/assets/pack-2/carte-theatre-tour-aurores-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 11522
+      }
+    }
+  },
+  {
+    "id": "carte-ville-bourse-municipale",
+    "priority": 2,
+    "files": {
+      "carte-ville-bourse-municipale.webp": {
+        "url": "/assets/pack-2/carte-ville-bourse-municipale.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6484
+      },
+      "carte-ville-bourse-municipale-256.webp": {
+        "url": "/assets/pack-2/carte-ville-bourse-municipale-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15954
+      }
+    }
+  },
+  {
+    "id": "carte-ville-stationnement",
+    "priority": 2,
+    "files": {
+      "carte-ville-stationnement.webp": {
+        "url": "/assets/pack-2/carte-ville-stationnement.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6344
+      },
+      "carte-ville-stationnement-256.webp": {
+        "url": "/assets/pack-2/carte-ville-stationnement-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16634
+      }
+    }
+  },
+  {
+    "id": "carte-ville-remboursement",
+    "priority": 2,
+    "files": {
+      "carte-ville-remboursement.webp": {
+        "url": "/assets/pack-2/carte-ville-remboursement.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6360
+      },
+      "carte-ville-remboursement-256.webp": {
+        "url": "/assets/pack-2/carte-ville-remboursement-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16250
+      }
+    }
+  },
+  {
+    "id": "carte-ville-cotisation-municipale",
+    "priority": 2,
+    "files": {
+      "carte-ville-cotisation-municipale.webp": {
+        "url": "/assets/pack-2/carte-ville-cotisation-municipale.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6968
+      },
+      "carte-ville-cotisation-municipale-256.webp": {
+        "url": "/assets/pack-2/carte-ville-cotisation-municipale-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17574
+      }
+    }
+  },
+  {
+    "id": "carte-ville-concours-quartier",
+    "priority": 2,
+    "files": {
+      "carte-ville-concours-quartier.webp": {
+        "url": "/assets/pack-2/carte-ville-concours-quartier.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7814
+      },
+      "carte-ville-concours-quartier-256.webp": {
+        "url": "/assets/pack-2/carte-ville-concours-quartier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19672
+      }
+    }
+  },
+  {
+    "id": "carte-ville-avance-depart",
+    "priority": 2,
+    "files": {
+      "carte-ville-avance-depart.webp": {
+        "url": "/assets/pack-2/carte-ville-avance-depart.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5300
+      },
+      "carte-ville-avance-depart-256.webp": {
+        "url": "/assets/pack-2/carte-ville-avance-depart-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12736
+      }
+    }
+  },
+  {
+    "id": "carte-ville-commissariat",
+    "priority": 2,
+    "files": {
+      "carte-ville-commissariat.webp": {
+        "url": "/assets/pack-2/carte-ville-commissariat.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7390
+      },
+      "carte-ville-commissariat-256.webp": {
+        "url": "/assets/pack-2/carte-ville-commissariat-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18124
+      }
+    }
+  },
+  {
+    "id": "carte-ville-liberation",
+    "priority": 2,
+    "files": {
+      "carte-ville-liberation.webp": {
+        "url": "/assets/pack-2/carte-ville-liberation.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7820
+      },
+      "carte-ville-liberation-256.webp": {
+        "url": "/assets/pack-2/carte-ville-liberation-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19686
+      }
+    }
+  },
+  {
+    "id": "carte-ville-coup-de-pouce",
+    "priority": 2,
+    "files": {
+      "carte-ville-coup-de-pouce.webp": {
+        "url": "/assets/pack-2/carte-ville-coup-de-pouce.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8862
+      },
+      "carte-ville-coup-de-pouce-256.webp": {
+        "url": "/assets/pack-2/carte-ville-coup-de-pouce-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21002
+      }
+    }
+  },
+  {
+    "id": "carte-ville-participation",
+    "priority": 2,
+    "files": {
+      "carte-ville-participation.webp": {
+        "url": "/assets/pack-2/carte-ville-participation.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6032
+      },
+      "carte-ville-participation-256.webp": {
+        "url": "/assets/pack-2/carte-ville-participation-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14908
+      }
+    }
+  },
+  {
+    "id": "carte-ville-prime-voisinage",
+    "priority": 2,
+    "files": {
+      "carte-ville-prime-voisinage.webp": {
+        "url": "/assets/pack-2/carte-ville-prime-voisinage.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 9710
+      },
+      "carte-ville-prime-voisinage-256.webp": {
+        "url": "/assets/pack-2/carte-ville-prime-voisinage-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 25306
+      }
+    }
+  },
+  {
+    "id": "carte-ville-travaux-municipaux",
+    "priority": 2,
+    "files": {
+      "carte-ville-travaux-municipaux.webp": {
+        "url": "/assets/pack-2/carte-ville-travaux-municipaux.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7686
+      },
+      "carte-ville-travaux-municipaux-256.webp": {
+        "url": "/assets/pack-2/carte-ville-travaux-municipaux-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19484
+      }
+    }
+  },
+  {
+    "id": "recompense-medaille-argent",
+    "priority": 2,
+    "files": {
+      "recompense-medaille-argent.webp": {
+        "url": "/assets/pack-2/recompense-medaille-argent.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5280
+      },
+      "recompense-medaille-argent-256.webp": {
+        "url": "/assets/pack-2/recompense-medaille-argent-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12582
+      }
+    }
+  },
+  {
+    "id": "recompense-medaille-bronze",
+    "priority": 2,
+    "files": {
+      "recompense-medaille-bronze.webp": {
+        "url": "/assets/pack-2/recompense-medaille-bronze.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 5216
+      },
+      "recompense-medaille-bronze-256.webp": {
+        "url": "/assets/pack-2/recompense-medaille-bronze-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12486
+      }
+    }
+  },
+  {
+    "id": "badge-batisseur",
+    "priority": 2,
+    "files": {
+      "badge-batisseur.webp": {
+        "url": "/assets/pack-2/badge-batisseur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6384
+      },
+      "badge-batisseur-256.webp": {
+        "url": "/assets/pack-2/badge-batisseur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15474
+      }
+    }
+  },
+  {
+    "id": "badge-negociateur",
+    "priority": 2,
+    "files": {
+      "badge-negociateur.webp": {
+        "url": "/assets/pack-2/badge-negociateur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8190
+      },
+      "badge-negociateur-256.webp": {
+        "url": "/assets/pack-2/badge-negociateur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21296
+      }
+    }
+  },
+  {
+    "id": "badge-rentier",
+    "priority": 2,
+    "files": {
+      "badge-rentier.webp": {
+        "url": "/assets/pack-2/badge-rentier.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8696
+      },
+      "badge-rentier-256.webp": {
+        "url": "/assets/pack-2/badge-rentier-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21544
+      }
+    }
+  },
+  {
+    "id": "badge-collectionneur",
+    "priority": 2,
+    "files": {
+      "badge-collectionneur.webp": {
+        "url": "/assets/pack-2/badge-collectionneur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6538
+      },
+      "badge-collectionneur-256.webp": {
+        "url": "/assets/pack-2/badge-collectionneur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17042
+      }
+    }
+  },
+  {
+    "id": "badge-explorateur",
+    "priority": 2,
+    "files": {
+      "badge-explorateur.webp": {
+        "url": "/assets/pack-2/badge-explorateur.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6866
+      },
+      "badge-explorateur-256.webp": {
+        "url": "/assets/pack-2/badge-explorateur-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17068
+      }
+    }
+  },
+  {
+    "id": "rue-ateliers",
+    "priority": 3,
+    "files": {
+      "rue-ateliers.webp": {
+        "url": "/assets/pack-2/rue-ateliers.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6796
+      },
+      "rue-ateliers-256.webp": {
+        "url": "/assets/pack-2/rue-ateliers-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18816
+      }
+    }
+  },
+  {
+    "id": "rue-artisans",
+    "priority": 3,
+    "files": {
+      "rue-artisans.webp": {
+        "url": "/assets/pack-2/rue-artisans.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7868
+      },
+      "rue-artisans-256.webp": {
+        "url": "/assets/pack-2/rue-artisans-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21456
+      }
+    }
+  },
+  {
+    "id": "rue-fresques",
+    "priority": 3,
+    "files": {
+      "rue-fresques.webp": {
+        "url": "/assets/pack-2/rue-fresques.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6998
+      },
+      "rue-fresques-256.webp": {
+        "url": "/assets/pack-2/rue-fresques-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17046
+      }
+    }
+  },
+  {
+    "id": "rue-musiciens",
+    "priority": 3,
+    "files": {
+      "rue-musiciens.webp": {
+        "url": "/assets/pack-2/rue-musiciens.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8058
+      },
+      "rue-musiciens-256.webp": {
+        "url": "/assets/pack-2/rue-musiciens-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21894
+      }
+    }
+  },
+  {
+    "id": "rue-inventeurs",
+    "priority": 3,
+    "files": {
+      "rue-inventeurs.webp": {
+        "url": "/assets/pack-2/rue-inventeurs.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7046
+      },
+      "rue-inventeurs-256.webp": {
+        "url": "/assets/pack-2/rue-inventeurs-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19822
+      }
+    }
+  },
+  {
+    "id": "rue-lanternes",
+    "priority": 3,
+    "files": {
+      "rue-lanternes.webp": {
+        "url": "/assets/pack-2/rue-lanternes.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7000
+      },
+      "rue-lanternes-256.webp": {
+        "url": "/assets/pack-2/rue-lanternes-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17878
+      }
+    }
+  },
+  {
+    "id": "rue-livres",
+    "priority": 3,
+    "files": {
+      "rue-livres.webp": {
+        "url": "/assets/pack-2/rue-livres.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8400
+      },
+      "rue-livres-256.webp": {
+        "url": "/assets/pack-2/rue-livres-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 22590
+      }
+    }
+  },
+  {
+    "id": "rue-cinemas",
+    "priority": 3,
+    "files": {
+      "rue-cinemas.webp": {
+        "url": "/assets/pack-2/rue-cinemas.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7424
+      },
+      "rue-cinemas-256.webp": {
+        "url": "/assets/pack-2/rue-cinemas-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19034
+      }
+    }
+  },
+  {
+    "id": "rue-saveurs",
+    "priority": 3,
+    "files": {
+      "rue-saveurs.webp": {
+        "url": "/assets/pack-2/rue-saveurs.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8360
+      },
+      "rue-saveurs-256.webp": {
+        "url": "/assets/pack-2/rue-saveurs-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 22786
+      }
+    }
+  },
+  {
+    "id": "rue-epices",
+    "priority": 3,
+    "files": {
+      "rue-epices.webp": {
+        "url": "/assets/pack-2/rue-epices.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 9060
+      },
+      "rue-epices-256.webp": {
+        "url": "/assets/pack-2/rue-epices-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 23856
+      }
+    }
+  },
+  {
+    "id": "rue-festival",
+    "priority": 3,
+    "files": {
+      "rue-festival.webp": {
+        "url": "/assets/pack-2/rue-festival.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 8604
+      },
+      "rue-festival-256.webp": {
+        "url": "/assets/pack-2/rue-festival-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 22504
+      }
+    }
+  },
+  {
+    "id": "rue-etoiles",
+    "priority": 3,
+    "files": {
+      "rue-etoiles.webp": {
+        "url": "/assets/pack-2/rue-etoiles.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6818
+      },
+      "rue-etoiles-256.webp": {
+        "url": "/assets/pack-2/rue-etoiles-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17828
+      }
+    }
+  },
+  {
+    "id": "rue-studios",
+    "priority": 3,
+    "files": {
+      "rue-studios.webp": {
+        "url": "/assets/pack-2/rue-studios.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7228
+      },
+      "rue-studios-256.webp": {
+        "url": "/assets/pack-2/rue-studios-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19580
+      }
+    }
+  },
+  {
+    "id": "rue-spectacles",
+    "priority": 3,
+    "files": {
+      "rue-spectacles.webp": {
+        "url": "/assets/pack-2/rue-spectacles.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 6442
+      },
+      "rue-spectacles-256.webp": {
+        "url": "/assets/pack-2/rue-spectacles-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15948
+      }
+    }
+  },
+  {
+    "id": "rue-serres",
+    "priority": 3,
+    "files": {
+      "rue-serres.webp": {
+        "url": "/assets/pack-2/rue-serres.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7898
+      },
+      "rue-serres-256.webp": {
+        "url": "/assets/pack-2/rue-serres-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 22434
+      }
+    }
+  },
+  {
+    "id": "rue-soleil",
+    "priority": 3,
+    "files": {
+      "rue-soleil.webp": {
+        "url": "/assets/pack-2/rue-soleil.webp",
+        "width": 128,
+        "height": 128,
+        "bytes": 7750
+      },
+      "rue-soleil-256.webp": {
+        "url": "/assets/pack-2/rue-soleil-256.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 20522
+      }
+    }
+  }
+]

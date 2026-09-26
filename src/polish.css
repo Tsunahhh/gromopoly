@@ -301,3 +301,22 @@
 .mobile-game .board-wrap:not(.zoomed) .tile .tile-price{font-size:clamp(5px,min(20cqh,22cqw),9px)}
 .mobile-game .board-wrap:not(.zoomed) .tile .tile-name{display:none}
 }
+
+/* ---------- Pack 2 : icônes d'interface et illustrations ---------- */
+.clock-icon{width:26px;height:26px}
+.game-clock #turn-countdown.urgent~*,.game-clock:has(.urgent) .clock-icon{animation:clockShake .5s ease-in-out infinite}
+@keyframes clockShake{25%{transform:rotate(-12deg)}75%{transform:rotate(12deg)}}
+.icon-button .game-asset{width:28px;height:28px}
+.head-icon{width:22px;height:22px;margin-right:6px;vertical-align:-6px}
+.btn .game-asset{flex:none}
+.invite-code button,.lobby-page #leave{display:inline-flex;align-items:center;gap:6px}
+.invite-code button .game-asset,.lobby-page #leave .game-asset{width:24px;height:24px}
+.roster-card.vacant{display:flex;flex-direction:column;gap:4px}
+.vacant-art{width:44px;height:44px;opacity:.85}
+.empty-art{display:grid;justify-items:center;gap:8px}
+.empty-art .game-asset{width:92px;height:92px}
+.result-badge{display:inline-flex;align-items:center;gap:6px}
+.result-badge .game-asset{width:26px;height:26px;margin:-4px 0}
+.toast-error{display:flex;align-items:center;gap:10px;background:#ffe2db}
+.toast .game-asset{width:40px;height:40px;flex:none}
+@media(max-width:760px){.clock-icon{width:20px;height:20px}.mobile-game .clock-icon{display:none}}
