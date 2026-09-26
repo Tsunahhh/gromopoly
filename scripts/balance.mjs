@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { applyCommand, createGame, ECONOMY } from '../src/engine.js';
+import { applyCommand, createGame, ECONOMY, debtLimit } from '../src/engine.js';
 
 function random(seed) {
   let state = seed >>> 0;
@@ -15,7 +15,7 @@ function checkInvariants(s) {
   assert.ok(s.bank.apartments >= 0 && s.bank.apartments <= 12);
   assert.equal(s.bank.houses + s.board.reduce((sum, tile) => sum + (tile.level === 4 ? 0 : tile.level), 0), 32);
   assert.equal(s.bank.apartments + s.board.filter(tile => tile.level === 4).length, 12);
-  for (const p of s.players) assert.ok(Number.isFinite(p.cash) && p.cash >= 0, `${p.name}: solde invalide`);
+  for (const p of s.players) assert.ok(Number.isFinite(p.cash) && p.cash >= -debtLimit(s), `${p.name}: solde sous le découvert autorisé`);
   for (const tile of s.board) {
     assert.ok(Number.isInteger(tile.level) && tile.level >= 0 && tile.level <= 4);
     if (tile.owner) assert.ok(s.players.some(p => p.id === tile.owner));
@@ -53,7 +53,7 @@ function consolidateOnce(s, id) {
 
 function handleDebt(s) {
   const debt = s.pendingDebt, id = debt.debtor, p = s.players.find(candidate => candidate.id === id);
-  if (p.cash >= debt.amount) return applyCommand(s, id, 'debt-settle');
+  if (p.cash - debt.amount >= -debtLimit(s)) return applyCommand(s, id, 'debt-settle');
   const titles = own(s, id);
   const built = titles.filter(tile => tile.level).sort((a, b) => b.level - a.level);
   for (const tile of built) {

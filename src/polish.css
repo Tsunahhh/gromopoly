@@ -320,3 +320,11 @@
 .toast-error{display:flex;align-items:center;gap:10px;background:#ffe2db}
 .toast .game-asset{width:40px;height:40px;flex:none}
 @media(max-width:760px){.clock-icon{width:20px;height:20px}.mobile-game .clock-icon{display:none}}
+
+/* ---------- Découvert ---------- */
+.player-card.in-debt{background:#fff1ee}
+.player-card.in-debt .player-meta strong{color:#b53232}
+.player-status i.debt-chip{background:#ffe2db;border-color:#e8a79c;color:#b53232}
+.overdraft-note{margin-top:6px!important;padding:6px 10px;border-radius:10px;background:#ffe2db;color:#8f2d2d!important;font-weight:800;font-size:12px!important;line-height:1.35}
+.debt-missing{color:#b53232;white-space:nowrap}
+@media(max-width:760px){.turn-banner .overdraft-note{display:block!important;font-size:11px!important}}

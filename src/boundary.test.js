@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { BOARD, CARDS, groups } from './board.js';
-import { applyCommand, createGame, RENT_MULTIPLIERS, ECONOMY } from './engine.js';
+import { applyCommand, createGame, RENT_MULTIPLIERS, ECONOMY, debtLimit, debtLimitFor } from './engine.js';
 
 const START = ECONOMY.startCash;
 import { simulate } from '../scripts/balance.mjs';
@@ -155,7 +155,7 @@ test('enchère : échange ne peut consommer une mise engagée', () => {
   assert.equal(s.players[0].cash, START - 1000);
 });
 test('troisième échec au Commissariat : dette puis mouvement après règlement', () => {
-  const s = game();
+  const s = game(); s.settings.debtLimit = 0; // sans découvert : la caution ouvre une dette
   s.players[0].pos = 10; s.players[0].jailed = 1; s.players[0].jailAttempts = 2; s.players[0].cash = ECONOMY.bail - 50;
   s.board[3].owner = 'p0';
   applyCommand(s, 'p0', 'roll', {}, [1, 2]);
@@ -187,7 +187,7 @@ test('vente d’un titre déjà hypothéqué : pas de deuxième avance', () => {
   assert.equal(s.board[1].owner, null);
 });
 test('carte multi-joueurs : les transferts reprennent après une dette', () => {
-  const s = game(4);
+  const s = game(4); s.settings.debtLimit = 0;
   s.cityDeck.unshift(['Test solidarité', 'payeach:25']);
   s.players[1].cash = 0; s.board[1].owner = 'p1';
   land(s, 2);
@@ -200,7 +200,7 @@ test('carte multi-joueurs : les transferts reprennent après une dette', () => {
   assert.equal(s.pendingCard, null);
 });
 test('carte multi-joueurs : la faillite d’un débiteur ne prive pas les autres transferts', () => {
-  const s = game(4);
+  const s = game(4); s.settings.debtLimit = 0;
   s.cityDeck.unshift(['Test solidarité', 'payeach:25']);
   s.players[1].cash = 0;
   land(s, 2);
@@ -213,7 +213,7 @@ test('carte multi-joueurs : la faillite d’un débiteur ne prive pas les autres
   assert.equal(s.pendingCard, null);
 });
 test('cotisation à plusieurs joueurs : reprend après hypothèque et règlement', () => {
-  const s = game(4);
+  const s = game(4); s.settings.debtLimit = 0;
   s.cityDeck.unshift(['Test cotisation', 'collect:10']);
   s.players[0].cash = 0; s.board[3].owner = 'p0';
   land(s, 2);
@@ -302,4 +302,87 @@ test('fin au temps : départage les patrimoines égaux par l’argent', () => {
   applyCommand(s, 'p0', 'end');
   assert.equal(s.results[0].id, 'p1');
   assert.equal(s.results[0].score, 1500);
+});
+
+// ---------- Découvert autorisé ----------
+for (const [minutes, limit] of [[45, 200], [60, 500], [90, 1000]]) {
+  test(`découvert : ${limit} ¤ pour une partie de ${minutes} minutes`, () => {
+    assert.equal(debtLimitFor(minutes), limit);
+    assert.equal(debtLimit(createGame(makePlayers(2), minutes, { seed: 1 })), limit);
+  });
+}
+test('découvert : un loyer dans la limite passe le joueur en négatif sans bloquer la partie', () => {
+  const s = game();
+  s.board[39].owner = 'p1'; s.board[39].level = 2; // 600 ¤ de loyer
+  s.players[0].cash = 300;
+  land(s, 39, [1, 2]);
+  assert.equal(s.players[0].cash, -300);
+  assert.equal(s.players[1].cash, START + 600);
+  assert.equal(s.phase, 'end');
+  assert.ok(!s.pendingDebt);
+});
+test('découvert : au-delà de la limite, dette à régler avant de continuer', () => {
+  const s = game();
+  s.board[39].owner = 'p1'; s.board[39].level = 3; // 900 ¤ de loyer
+  s.board[1].owner = 'p0'; s.board[3].owner = 'p0';
+  s.players[0].cash = 300; // 300 - 900 = -600 < -500
+  land(s, 39, [1, 2]);
+  assert.equal(s.phase, 'debt');
+  assert.throws(() => applyCommand(s, 'p0', 'debt-settle'), /-500/);
+  applyCommand(s, 'p0', 'debt-mortgage', { tile: 1 }); // +40 → -560 : encore trop
+  assert.throws(() => applyCommand(s, 'p0', 'debt-settle'));
+  applyCommand(s, 'p0', 'debt-mortgage', { tile: 3 }); // +50 → -510 : encore trop
+  applyCommand(s, 'p0', 'debt-sell', { tile: 3 }); // titre hypothéqué : 0 ¤
+  assert.throws(() => applyCommand(s, 'p0', 'debt-settle'));
+  s.players[0].cash += 20; // simulé : 410 - 900 = -490
+  applyCommand(s, 'p0', 'debt-settle');
+  assert.equal(s.players[0].cash, -490);
+  assert.equal(s.players[1].cash, START + 900);
+  assert.equal(s.phase, 'end');
+});
+test('découvert : les dépenses volontaires restent interdites en négatif', () => {
+  const s = game();
+  s.players[0].cash = -100;
+  s.phase = 'decision'; s.pending = { type: 'buy', tile: 1 };
+  assert.throws(() => applyCommand(s, 'p0', 'buy'), /Fonds insuffisants/);
+  s.phase = 'roll'; s.pending = null; s.players[0].jailed = 1; s.players[0].pos = 10;
+  assert.throws(() => applyCommand(s, 'p0', 'bail'), /Fonds insuffisants/);
+  assert.throws(() => applyCommand(s, 'p0', 'trade-propose', { target: 'p1', giveCash: 10, getTiles: [] }), /ressources|vide/);
+});
+test('découvert : un échange sans argent reste possible avec un joueur en négatif', () => {
+  const s = game();
+  s.players[1].cash = -200; s.board[1].owner = 'p0'; s.board[3].owner = 'p1';
+  applyCommand(s, 'p0', 'trade-propose', { target: 'p1', giveTiles: [1], getTiles: [3] });
+  applyCommand(s, 'p1', 'trade-accept');
+  assert.equal(s.board[1].owner, 'p1');
+  assert.equal(s.board[3].owner, 'p0');
+});
+test('découvert : les revenus remboursent automatiquement', () => {
+  const s = game();
+  s.players[0].cash = -120; s.players[0].pos = 38;
+  applyCommand(s, 'p0', 'roll', {}, [1, 2]); // passe par le Départ
+  assert.equal(s.players[0].cash, -120 + ECONOMY.goSalary);
+});
+test('revente d’un titre à la banque pendant son tour', () => {
+  const s = game();
+  s.board[1].owner = 'p0'; s.board[3].owner = 'p0'; s.board[3].level = 1;
+  assert.throws(() => applyCommand(s, 'p0', 'sell', { tile: 1 }), /bâtiments/);
+  s.board[3].level = 0; s.players[0].cash = -50;
+  applyCommand(s, 'p0', 'sell', { tile: 1 });
+  assert.equal(s.board[1].owner, null);
+  assert.equal(s.players[0].cash, -50 + BOARD[1].price / 2);
+  s.board[3].mortgage = true;
+  applyCommand(s, 'p0', 'sell', { tile: 3 });
+  assert.equal(s.board[3].owner, null);
+  assert.equal(s.board[3].mortgage, false);
+  assert.equal(s.players[0].cash, -50 + BOARD[1].price / 2);
+  assert.throws(() => applyCommand(s, 'p1', 'sell', { tile: 5 }), /tour|appartient/);
+});
+test('faillite à découvert : le créancier ne perd pas d’argent', () => {
+  const s = game();
+  s.players[0].cash = -300; s.board[39].owner = 'p1'; s.board[39].level = 1;
+  land(s, 39, [1, 2]); // 300 ¤ de loyer → -600 : dette
+  assert.equal(s.phase, 'debt');
+  applyCommand(s, 'p0', 'debt-bankrupt');
+  assert.equal(s.players[1].cash, START);
 });

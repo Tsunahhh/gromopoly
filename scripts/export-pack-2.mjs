@@ -40,10 +40,32 @@ async function transparentSource(file, background) {
   return keyed(file, background || '#FF00FF');
 }
 
-// Sujet recadré au plus près puis centré avec une marge régulière (8 %).
-async function square(buffer, size) {
+// Fond uni (couleur des coins) retiré par remplissage depuis les bords : les couleurs identiques à l'intérieur du sujet sont conservées.
+async function removeFlatBackground(file) {
+  const { data, info } = await sharp(file).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  const { width: w, height: h } = info, at = (x, y) => (y * w + x) * 4;
+  const bg = [0, 1, 2].map(c => Math.round([at(2, 2), at(w - 3, 2), at(2, h - 3), at(w - 3, h - 3)].reduce((n, i) => n + data[i + c], 0) / 4));
+  const distance = i => Math.hypot(data[i] - bg[0], data[i + 1] - bg[1], data[i + 2] - bg[2]);
+  const seen = new Uint8Array(w * h), stack = [];
+  for (let x = 0; x < w; x++) stack.push([x, 0], [x, h - 1]);
+  for (let y = 0; y < h; y++) stack.push([0, y], [w - 1, y]);
+  while (stack.length) {
+    const [x, y] = stack.pop();
+    if (x < 0 || y < 0 || x >= w || y >= h || seen[y * w + x]) continue;
+    const i = at(x, y), d = distance(i);
+    if (d > 95) continue;
+    seen[y * w + x] = 1;
+    // Cœur du fond : transparent. Bord anti-crénelé : transparence partielle, sans reflet violet.
+    data[i + 3] = d < 45 ? 0 : Math.round(255 * (d - 45) / 50);
+    stack.push([x + 1, y], [x - 1, y], [x, y + 1], [x, y - 1]);
+  }
+  return sharp(data, { raw: info }).png().toBuffer();
+}
+
+// Sujet recadré au plus près puis centré avec une marge régulière (8 % par défaut).
+async function square(buffer, size, fill = .84) {
   const trimmed = await sharp(buffer).trim({ threshold: 1 }).png().toBuffer();
-  const inner = Math.round(size * .84), pad = Math.round((size - inner) / 2);
+  const inner = Math.round(size * fill), pad = Math.round((size - inner) / 2);
   return sharp(trimmed).resize(inner, inner, { fit: 'contain', background: '#00000000' })
     .extend({ top: pad, bottom: size - inner - pad, left: pad, right: size - inner - pad, background: '#00000000' });
 }
@@ -59,8 +81,10 @@ for (const item of specs) {
     files[name] = { url: `/assets/pack-2/${name}`, width: meta.width, height: meta.height, bytes: (await stat(out)).size };
   };
   if (item.id === 'app-icone') {
-    for (const size of [512, 192, 180]) await save(`app-icone-${size}.png`, sharp(file).resize(size, size).flatten({ background: '#aa83cf' }), 'png');
-    await save('favicon-32.png', sharp(file).resize(32, 32).flatten({ background: '#aa83cf' }), 'png');
+    // Le fond uni de l'icône est retiré : favicon transparent, icônes d'écran d'accueil sur fond crème.
+    const cutout = await removeFlatBackground(file);
+    for (const size of [32, 64]) await save(`favicon-${size}.png`, await square(cutout, size, .96), 'png');
+    for (const size of [512, 192, 180]) await save(`app-icone-${size}.png`, (await square(cutout, size, .78)).flatten({ background: '#fff4df' }), 'png');
   } else if (item.id === 'og-partage') {
     await save('og-partage.jpg', sharp(file).resize(1200, 630, { fit: 'cover' }).flatten({ background: '#ffd9c2' }), 'jpeg');
   } else {

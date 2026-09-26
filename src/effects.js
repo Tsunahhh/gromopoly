@@ -116,7 +116,7 @@ function transfers(before, after) {
     let m;
     if ((m = text.match(/^(.+?) paie (\d+) ¤(?: à (.+?))?(?: ·|\.|$)/))) list.push({ from: byName(m[1]), to: m[3] ? byName(m[3]) : -1 });
     else if ((m = text.match(/^(.+?) (?:achète|construit sur) .+ pour \d+ ¤/)) || (m = text.match(/^(.+?) remporte .+ pour \d+ ¤/))) list.push({ from: byName(m[1]), to: -1 });
-    else if ((m = text.match(/^(.+?) (?:passe par le Départ et reçoit|hypothèque)/))) list.push({ from: -1, to: byName(m[1]) });
+    else if ((m = text.match(/^(.+?) (?:passe par le Départ et reçoit|hypothèque|revend .+ à la banque : \+[1-9])/))) list.push({ from: -1, to: byName(m[1]) });
   }
   return list.filter(t => t.from !== t.to && (t.from >= 0 || t.to >= 0));
 }
@@ -153,6 +153,8 @@ const RULES = [
   [/construit/, pack.house, 'buy'],
   [/hypothèque/, 'mortgage', 'neutral'],
   [/ doit /, pack.broke, 'bad'],
+  [/passe à découvert/, pack.broke, 'bad'],
+  [/revend .+ à la banque/, pack.bank, 'neutral'],
   [/faillite/, pack.broke, 'bad'],
   [/envoyé au Commissariat|trois doubles|reste au Commissariat/, pack.prison, 'bad'],
   [/sort du Commissariat|carte Libération/, pack.shield, 'good'],

@@ -201,29 +201,35 @@
     "id": "app-icone",
     "priority": 1,
     "files": {
+      "favicon-32.png": {
+        "url": "/assets/pack-2/favicon-32.png",
+        "width": 32,
+        "height": 32,
+        "bytes": 1724
+      },
+      "favicon-64.png": {
+        "url": "/assets/pack-2/favicon-64.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 3528
+      },
       "app-icone-512.png": {
         "url": "/assets/pack-2/app-icone-512.png",
         "width": 512,
         "height": 512,
-        "bytes": 128552
+        "bytes": 70669
       },
       "app-icone-192.png": {
         "url": "/assets/pack-2/app-icone-192.png",
         "width": 192,
         "height": 192,
-        "bytes": 23235
+        "bytes": 13626
       },
       "app-icone-180.png": {
         "url": "/assets/pack-2/app-icone-180.png",
         "width": 180,
         "height": 180,
-        "bytes": 20027
-      },
-      "favicon-32.png": {
-        "url": "/assets/pack-2/favicon-32.png",
-        "width": 32,
-        "height": 32,
-        "bytes": 1436
+        "bytes": 12152
       }
     }
   },

@@ -47,6 +47,12 @@ Mesures à 4 joueurs (médianes, mêmes joueurs simulés) :
 | Revenus du Départ (toute la partie) | 1 400 ¤ | 1 050 ¤ |
 | Victoires par place (3 000 parties) | — | 24,4 / 25,4 / 25,2 / 24,9 % |
 
+### Découvert autorisé
+
+Un joueur qui doit payer plus que ce qu'il possède peut descendre sous zéro, jusqu'à **−200 ¤ (45 min), −500 ¤ (60 min) ou −1 000 ¤ (90 min)** (`ECONOMY.debtLimits`, valeur copiée dans `settings.debtLimit` au lancement). Au-delà, l'écran de dette s'ouvre : vendre des maisons, hypothéquer ou revendre un titre jusqu'à revenir dans la limite, sinon faillite. À découvert, les revenus remboursent automatiquement et les dépenses volontaires (achat, construction, enchère, caution, argent donné en échange) sont refusées. Les titres peuvent être revendus à la banque pendant son tour (moitié du prix, rien pour un titre hypothéqué).
+
+Effet mesuré (1 000 parties par format) : les faillites passent de 12 à 0 à 2 joueurs ; l'équilibre entre les places ne change pas.
+
 Pour essayer d'autres réglages sans modifier le jeu : `node scripts/tune-economy.mjs 200 '{"essai":{"economy":{"bail":150},"rentFactor":1.2}}'`.
 
 ## Mesures après réglage (version précédente)
