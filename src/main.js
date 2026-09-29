@@ -4,7 +4,7 @@ import './polish.css';
 import { gameMarkup, propertyMarkup, rulesMarkup } from './game-view.js';
 import { asset, decorateAssets, pack, art } from './assets.js';
 import { playTransition, announce } from './effects.js';
-import { ECONOMY, debtLimitFor } from './engine.js';
+import { auctionNextBid, ECONOMY, debtLimitFor } from './engine.js';
 const root=document.querySelector('#app'),storage=localStorage;
 // Animations : le bouton du jeu décide ; par défaut on suit le réglage « réduire les animations » du système.
 function initialMotion(){let saved=null;try{saved=localStorage.getItem('cc_motion')}catch{}return saved?saved==='on':!matchMedia('(prefers-reduced-motion: reduce)').matches}
@@ -85,7 +85,7 @@ function renderGame() {
   if(narrowScreen.matches)setupMobile();
   for(const action of ['debt-settle','debt-bankrupt','bail','release','buy','pass','auction-pass','end'])document.querySelector('#'+action)?.addEventListener('click',()=>command(action));
   document.querySelector('#roll')?.addEventListener('click',async event=>{if(rollPending||busy)return;event.currentTarget.disabled=true;rollPending=true;const stop=tumbleDice();try{await command('roll',undefined,motionOff()?0:700)}finally{stop();rollPending=false;const roll=document.querySelector('#roll');if(roll)roll.disabled=false}});
-  document.querySelector('#bid')?.addEventListener('click',()=>command('auction-bid',{amount:document.querySelector('#bid-amount').value}));
+  document.querySelector('#bid')?.addEventListener('click',()=>command('auction-bid',{amount:auctionNextBid(state)}));
   document.querySelectorAll('[data-tile-card]').forEach(button=>button.addEventListener('click',()=>showProperty(Number(button.dataset.tileCard))));
   document.querySelector('#exit-game').onclick=home;
   document.querySelector('#game-logo').onclick=event=>{event.preventDefault();home()};

@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { applyCommand, createGame, ECONOMY, debtLimit } from '../src/engine.js';
+import { applyCommand, createGame, ECONOMY, auctionNextBid, debtLimit } from '../src/engine.js';
 
 function random(seed) {
   let state = seed >>> 0;
@@ -85,8 +85,8 @@ export function simulate(count, seed, maxRounds = count === 2 ? 24 : count === 4
       else applyCommand(s, id, 'pass');
     } else if (phase === 'auction') {
       const id = s.auctionActor, p = s.players.find(candidate => candidate.id === id), tile = s.board[s.auction.tile];
-      const bid = s.auction.highBid ? s.auction.highBid + 10 : 1;
-      if (bid <= Math.floor(tile.price * .65) && p.cash >= bid + BOT.buyReserve) applyCommand(s, id, 'auction-bid', { amount: bid });
+      const bid = auctionNextBid(s);
+      if (bid <= Math.floor(tile.price * .95) && p.cash >= bid + BOT.buyReserve) applyCommand(s, id, 'auction-bid', { amount: bid });
       else applyCommand(s, id, 'auction-pass');
     } else if (phase === 'bonus') applyCommand(s, s.players[s.turn].id, 'end');
     else if (phase === 'end') {

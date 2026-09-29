@@ -133,8 +133,9 @@ for (const seed of Array.from({ length: 24 }, (_, i) => i)) {
 
 test('enchère : une offre à 100 % de la trésorerie est acceptée', () => {
   const s = game();
+  s.players[0].cash = 160;
   land(s, 5, [2, 3]); applyCommand(s, 'p0', 'pass');
-  applyCommand(s, 'p0', 'auction-bid', { amount: START });
+  applyCommand(s, 'p0', 'auction-bid', { amount: 160 });
   applyCommand(s, 'p1', 'auction-pass');
   assert.equal(s.players[0].cash, 0);
   assert.equal(s.board[5].owner, 'p0');
@@ -145,26 +146,23 @@ test('enchère : mise supérieure à la trésorerie refusée', () => {
 });
 test('enchère : échange ne peut consommer une mise engagée', () => {
   const s = game();
-  s.trade = { from: 'p0', to: 'p1', giveCash: 1000, getCash: 0, giveTiles: [], getTiles: [], giveCards: 0, getCards: 0 };
+  s.trade = { from: 'p0', to: 'p1', giveCash: START - 100, getCash: 0, giveTiles: [], getTiles: [], giveCards: 0, getCards: 0 };
   land(s, 5, [2, 3]); applyCommand(s, 'p0', 'pass');
-  applyCommand(s, 'p0', 'auction-bid', { amount: 1000 });
+  applyCommand(s, 'p0', 'auction-bid', { amount: 160 });
   applyCommand(s, 'p1', 'trade-accept');
   assert.equal(s.trade, null);
   assert.equal(s.players[0].cash, START);
   applyCommand(s, 'p1', 'auction-pass');
-  assert.equal(s.players[0].cash, START - 1000);
+  assert.equal(s.players[0].cash, START - 160);
 });
-test('troisième échec au Commissariat : dette puis mouvement après règlement', () => {
-  const s = game(); s.settings.debtLimit = 0; // sans découvert : la caution ouvre une dette
+test('troisième échec au Commissariat : sortie gratuite sans dette de caution', () => {
+  const s = game(); s.settings.debtLimit = 0;
   s.players[0].pos = 10; s.players[0].jailed = 1; s.players[0].jailAttempts = 2; s.players[0].cash = ECONOMY.bail - 50;
   s.board[3].owner = 'p0';
   applyCommand(s, 'p0', 'roll', {}, [1, 2]);
-  assert.equal(s.phase, 'debt');
-  assert.equal(s.players[0].pos, 10);
-  applyCommand(s, 'p0', 'debt-mortgage', { tile: 3 });
-  applyCommand(s, 'p0', 'debt-settle');
+  assert.equal(s.pendingDebt, undefined);
   assert.equal(s.players[0].pos, 13);
-  assert.equal(s.players[0].cash, 0);
+  assert.equal(s.players[0].cash, ECONOMY.bail - 50);
   assert.equal(s.phase, 'decision');
 });
 test('double de sortie du Commissariat : déplacement sans relance supplémentaire', () => {

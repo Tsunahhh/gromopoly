@@ -36,9 +36,9 @@ Toutes les sommes utilisent l'unité fictive **¤**. Les montants ci-dessous son
 | Initiative | Tirage aléatoire | Le premier joueur est tiré au lancement ; les tours suivent ensuite l'ordre du salon. |
 | Passage / arrivée sur Départ | 200 ¤ | Une seule prime par passage ; pas de prime si une carte envoie directement au Commissariat. |
 | Achat direct | Prix imprimé | Disponible après un déplacement sur une propriété libre. |
-| Refus / délai d'achat | Enchère | Tous les joueurs solvables peuvent enchérir, y compris celui qui a refusé. Mise minimale 1 ¤ ; surenchère minimale 10 ¤. |
+| Refus / délai d'achat | Enchère | Première mise à 80 % du prix de la case, arrondie au supérieur. Chaque surenchère vaut exactement 105 % de la mise précédente, arrondie au supérieur. Les joueurs participent dans l’ordre du tour, y compris celui qui a refusé ; ceux sans fonds suffisants passent automatiquement. Passer retire de cette enchère. Sans offre, la case reste libre. |
 | Doubles | Rejouer | Deux dés identiques donnent un nouveau lancer ; trois doubles consécutifs envoient au Commissariat sans résoudre la dernière case. |
-| Tour au Commissariat | Jusqu'à 3 tentatives | Un double libère puis déplace sans relance supplémentaire. Sinon, payer 50 ¤ ou utiliser une carte Libération ; après la troisième tentative infructueuse, payer 50 ¤ et avancer selon les dés. |
+| Tour au Commissariat | Jusqu'à 3 tentatives | Un double libère puis déplace sans relance supplémentaire. Avant le lancer, payer volontairement 100 ¤ ou utiliser une carte Libération. Après trois tentatives infructueuses sur trois tours, sortie gratuite et déplacement selon les dés du troisième lancer. |
 | Détente | 0 ¤ | Aucun gain venant des taxes. |
 | Taxe locale (case 4) | 200 ¤ | Payée à la banque. |
 | Taxe patrimoine (case 38) | 100 ¤ | Payée à la banque. |

@@ -9,7 +9,7 @@ npm test
 npm run balance
 ```
 
-`npm test` exécute **239 tests nommés**. Ils vérifient les 40 cases, les 24 cartes, les loyers extrêmes des 22 rues, neuf dés invalides, les achats à un ¤ près, les limites de stock, les enchères, les échanges, les dettes, la caution, les expirations et les scores. Soixante tests jouent aussi des parties entières à 2, 4 et 6 joueurs, avec 20 graines fixes par taille de salon ; chaque partie est rejouée deux fois et les états finaux doivent être identiques. Les simulations contrôlent après chaque action les soldes, les propriétaires, les niveaux, le stock des 32 maisons et celui des 12 appartements.
+`npm test` exécute **367 tests nommés**. Ils vérifient les 40 cases, les 24 cartes, les loyers extrêmes des 22 rues, neuf dés invalides, les achats à un ¤ près, les limites de stock, les enchères, les échanges, les dettes, la caution, les expirations et les scores. Soixante tests jouent aussi des parties entières à 2, 4 et 6 joueurs, avec 20 graines fixes par taille de salon ; chaque partie est rejouée deux fois et les états finaux doivent être identiques. Les simulations contrôlent après chaque action les soldes, les propriétaires, les niveaux, le stock des 32 maisons et celui des 12 appartements.
 
 `npm run balance` joue **3 000 parties** : 1 000 graines pour chacun des salons de 2, 4 et 6 joueurs. Pour rejouer un nombre différent de graines : `node scripts/balance.mjs 200`. Le nombre passé est le nombre de parties **par taille**. Une graine et une taille données produisent toujours la même partie dans le simulateur.
 
@@ -73,7 +73,15 @@ Une place dans le salon garde une légère dispersion à six joueurs. Le premier
 - Premier joueur tiré au lancement, sans modifier les 1 500 ¤ de départ pour chaque joueur.
 - Patrimoine estimé affiché pendant la partie, avec un objectif de groupe à compléter. Cela rend visibles les progrès même lorsqu'un joueur dépense de l'argent pour investir.
 - Un titre de fin de partie, fondé sur les actions réellement accomplies, accompagne chaque résultat : Bâtisseur, Négociateur, Rentier, Collectionneur ou Explorateur. Il ne modifie pas les points ni l'économie.
-- Les transferts d'une carte impliquant plusieurs joueurs reprennent après une dette. Une mise d'enchère reste couverte lors d'un échange. La caution de la troisième tentative au Commissariat interrompt le déplacement jusqu'au règlement de la dette.
+- Les transferts d'une carte impliquant plusieurs joueurs reprennent après une dette. Une mise d'enchère reste couverte lors d'un échange. Après trois tentatives infructueuses au Commissariat, la sortie est gratuite et le joueur avance avec les dés du troisième lancer.
+
+## Correctifs enchères et prison — 29 septembre 2026
+
+- Première offre : 80 % du prix imprimé, arrondis à l'unité supérieure (`ceil(prix × 80 / 100)`), puis exactement `ceil(mise précédente × 105 / 100)`. Exemple : case à 200 ¤ → 160, 168, 177, 186 ¤. Aucun achat à zéro ; sans offre la propriété reste libre.
+- Rotation dans l'ordre des joueurs à partir du joueur actif. Un passage est définitif pour cette enchère. Les joueurs sans fonds suffisants passent automatiquement. Le délai de réponse repart à chaque nouvel enchérisseur.
+- Caution volontaire : 100 ¤ avant le lancer, uniquement avec les fonds nécessaires. Un double libère sans caution et sans relance. Trois échecs sur trois tours libèrent gratuitement ; les effets de la case d'arrivée (dont un éventuel loyer) restent applicables. La carte Libération demeure utilisable.
+- `src/auction-prison.test.js` couvre les 28 propriétés, les paliers et arrondis, les rotations à plusieurs joueurs, les fonds exacts ou insuffisants, les commandes invalides, les expirations, les doubles aux trois tentatives, la sortie après trois tours complets et les textes de l'interface.
+- Le simulateur utilise les mêmes paliers que le moteur et un plafond d'achat aux enchères de 95 % du prix imprimé (anciennement 65 %, désormais sous la mise de départ). Les mesures historiques ci-dessus décrivent les anciennes règles et ne constituent pas une nouvelle mesure d'équilibrage.
 
 ## Points à tester avec des joueurs
 
